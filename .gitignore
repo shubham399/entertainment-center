@@ -9,3 +9,6 @@ radarr/data/logs/*
 qbittorrent/data/qBittorrent/logs/*
 emby/data/logs/*
 emby/data/data/ScheduledTasks/*
+emby/data/data/device/*
+emby/data/data/devices/*
+qbittorrent/data/qBittorrent/BT_backup/*
