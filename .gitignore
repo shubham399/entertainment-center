@@ -1,0 +1,11 @@
+sonnar/tv/*
+downloads/*
+radarr/movies/*
+nginx/keys/*
+sonnar/data/MediaCover/*
+sonnar/data/logs/*
+radarr/data/MediaCover/*
+radarr/data/logs/*
+qbittorrent/data/qBittorrent/logs/*
+emby/data/logs/*
+emby/data/data/ScheduledTasks/*
