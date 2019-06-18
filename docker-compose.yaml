@@ -48,7 +48,7 @@ services:
       - TZ=Asia/Kolkata
     volumes:
       - ./emby/data:/config
-      - ./sonnar/tv.:/data/tvshows
+      - ./sonnar/tv:/data/tvshows
       - ./radarr/movies:/data/movies
       - ./emby/transcoding:/transcode #optional
     ports:
