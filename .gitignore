@@ -7,11 +7,9 @@ sonnar/data/MediaCover/*
 sonnar/data/logs/*
 radarr/data/MediaCover/*
 radarr/data/logs/*
-qbittorrent/data/qBittorrent/logs/*
 emby/*
-qbittorrent/data/qBittorrent/BT_backup/*
 radarr/data/log*
 radarr/data/nzb*
 sonnar/data/log*
 sonnar/data/nzb*
-qbittorrent/qBittorrent/rss/*
+qbittorrent/*
