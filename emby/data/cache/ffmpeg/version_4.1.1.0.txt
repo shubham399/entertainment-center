@@ -1,0 +1,12 @@
+﻿ffmpeg version 4.0.3-emby_2019_03_26 Copyright (c) 2000-2018 the FFmpeg developers and softworkz for Emby LLC
+built with gcc 6.3.0 (crosstool-NG crosstool-ng-1.23.0)
+configuration: --cc=x86_64-pc-linux-gnu-gcc --prefix=/home/embybuilder/Buildbot/x64/ffmpeg-x64/staging --pkg-config=pkg-config --disable-doc --disable-ffplay --disable-vdpau --disable-xlib --enable-fontconfig --enable-gnutls --enable-gpl --enable-iconv --enable-libass --enable-libfreetype --enable-libfribidi --enable-libmp3lame --enable-libopus --enable-libtheora --enable-libvorbis --enable-libwebp --enable-libx264 --enable-libzvbi --enable-version3 --enable-libsmbclient --enable-cuda-nvcc --enable-cuvid --enable-libmfx --enable-nvdec --enable-nvenc --enable-vaapi --enable-cross-compile --cross-prefix=x86_64-pc-linux-gnu- --extra-libs='-lexpat -lfreetype -lfribidi -lfontconfig -liconv -lpng -lz -lvorbis -logg -lnettle -lhogweed -lgmp -laddns-samba4 -lasn1util-samba4 -lauthkrb5-samba4 -lCHARSET3-samba4 -lcliauth-samba4 -lcli-cldap-samba4 -lcli-ldap-common-samba4 -lcli-nbt-samba4 -lcli-smb-common-samba4 -lcom_err -lcommon-auth-samba4 -ldbwrap-samba4 -ldcerpc-binding -ldcerpc-samba-samba4 -ldl -lflag-mapping-samba4 -lgenrand-samba4 -lgensec-samba4 -lgse-samba4 -lgssapi_krb5 -llibcli-lsa3-samba4 -llibsmb-samba4 -linterfaces-samba4 -liov-buf-samba4 -lk5crypto -lkrb5 -lkrb5samba-samba4 -lkrb5support -lldb -lldbsamba-samba4 -lmessages-dgm-samba4 -lmessages-util-samba4 -lmsghdr-samba4 -lmsrpc3-samba4 -lndr -lndr-krb5pac -lndr-nbt -lndr-samba-samba4 -lndr-standard -lreplace-samba4 -lsamba-cluster-support-samba4 -lsamba-credentials -lsamba-debug-samba4 -lsamba-errors -lsamba-hostconfig -lsamba-modules-samba4 -lsamba-security-samba4 -lsamba-sockets-samba4 -lsamba-util -lsamba3-util-samba4 -lsamdb -lsamdb-common-samba4 -lsecrets3-samba4 -lserver-id-db-samba4 -lserver-role-samba4 -lsmbconf -lsmbd-shim-samba4 -lsmb-transport-samba4 -lsocket-blocking-samba4 -lsys-rw-samba4 -ltalloc -ltalloc-report-samba4 -ltdb -ltdb-wrap-samba4 -ltevent -ltevent-util -ltime-basic-samba4 -lutil-cmdline-samba4 -lutil-reg-samba4 -lutil-setid-samba4 -lutil-tdb-samba4 -luuid -lwbclient -lwinbind-client-samba4 -ldrm' --arch=x86_64 --target-os=linux --enable-shared --disable-static
+libavutil      56. 14.100 / 56. 14.100
+libavcodec     58. 18.100 / 58. 18.100
+libavformat    58. 12.100 / 58. 12.100
+libavdevice    58.  3.100 / 58.  3.100
+libavfilter     7. 16.100 /  7. 16.100
+libswscale      5.  1.100 /  5.  1.100
+libswresample   3.  1.100 /  3.  1.100
+libpostproc    55.  1.100 / 55.  1.100
+
