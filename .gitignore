@@ -3,6 +3,8 @@ downloads/*
 radarr/movies/*
 nginx/keys/*
 nginx/log/*
+nginx/php/*
+nginx/www/*
 sonnar/data/MediaCover/*
 sonnar/data/logs/*
 radarr/data/MediaCover/*
