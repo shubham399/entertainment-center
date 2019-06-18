@@ -34,6 +34,7 @@
   <InvalidLoginAttemptCount>0</InvalidLoginAttemptCount>
   <EnablePublicSharing>true</EnablePublicSharing>
   <RemoteClientBitrateLimit>0</RemoteClientBitrateLimit>
+  <AuthenticationProviderId>Emby.Server.Implementations.Library.DefaultAuthenticationProvider</AuthenticationProviderId>
   <ExcludedSubFolders />
   <DisablePremiumFeatures>false</DisablePremiumFeatures>
 </UserPolicy>

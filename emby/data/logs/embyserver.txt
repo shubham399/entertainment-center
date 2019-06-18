@@ -1,5 +1,5 @@
-2019-06-18 15:18:47.930 Info Main: Application path: /app/emby/EmbyServer.dll
-2019-06-18 15:18:48.150 Info Main: Emby
+2019-06-18 16:05:29.207 Info Main: Application path: /app/emby/EmbyServer.dll
+2019-06-18 16:05:29.410 Info Main: Emby
 	Command line: /app/emby/EmbyServer.dll -programdata /config -ffdetect /app/emby/ffdetect -ffmpeg /app/emby/ffmpeg -ffprobe /app/emby/ffprobe
 	Operating system: Unix 4.15.0.20
 	64-Bit OS: True
@@ -9,226 +9,542 @@
 	Processor count: 8
 	Program data path: /config
 	Application directory: /app/emby
-2019-06-18 15:18:48.189 Info App: Application version: 4.1.1.0
-2019-06-18 15:18:48.192 Info App: Loading assemblies
-2019-06-18 15:18:48.210 Info App: File /config/plugins/Emby.Server.CinemaMode.dll has version 1.0.14.0
-2019-06-18 15:18:48.210 Info App: File /app/emby/plugins/Emby.Server.CinemaMode.dll has version 1.0.14.0
-2019-06-18 15:18:48.210 Info App: File /config/plugins/OpenSubtitles.dll has version 1.0.15.0
-2019-06-18 15:18:48.210 Info App: File /app/emby/plugins/OpenSubtitles.dll has version 1.0.15.0
-2019-06-18 15:18:48.211 Info App: File /config/plugins/AudioDb.dll has version 1.0.4.0
-2019-06-18 15:18:48.211 Info App: File /app/emby/plugins/AudioDb.dll has version 1.0.4.0
-2019-06-18 15:18:48.211 Info App: File /config/plugins/OMDb.dll has version 1.0.5.0
-2019-06-18 15:18:48.211 Info App: File /app/emby/plugins/OMDb.dll has version 1.0.5.0
-2019-06-18 15:18:48.211 Info App: File /config/plugins/Emby.PortMapper.dll has version 1.0.1.0
-2019-06-18 15:18:48.211 Info App: File /app/emby/plugins/Emby.PortMapper.dll has version 1.0.1.0
-2019-06-18 15:18:48.211 Info App: File /config/plugins/Emby.Dlna.dll has version 1.0.13.0
-2019-06-18 15:18:48.211 Info App: File /app/emby/plugins/Emby.Dlna.dll has version 1.0.13.0
-2019-06-18 15:18:48.211 Info App: File /config/plugins/StudioImages.dll has version 1.0.0.0
-2019-06-18 15:18:48.212 Info App: File /app/emby/plugins/StudioImages.dll has version 1.0.0.0
-2019-06-18 15:18:48.212 Info App: File /config/plugins/Tvdb.dll has version 1.0.7.0
-2019-06-18 15:18:48.212 Info App: File /app/emby/plugins/Tvdb.dll has version 1.0.6.0
-2019-06-18 15:18:48.212 Info App: File /config/plugins/MovieDb.dll has version 1.1.1.0
-2019-06-18 15:18:48.212 Info App: File /app/emby/plugins/MovieDb.dll has version 1.0.8.0
-2019-06-18 15:18:48.212 Info App: File /config/plugins/MusicBrainz.dll has version 1.0.5.0
-2019-06-18 15:18:48.212 Info App: File /app/emby/plugins/MusicBrainz.dll has version 1.0.5.0
-2019-06-18 15:18:48.212 Info App: File /config/plugins/NfoMetadata.dll has version 1.0.11.0
-2019-06-18 15:18:48.212 Info App: File /app/emby/plugins/NfoMetadata.dll has version 1.0.11.0
-2019-06-18 15:18:48.212 Info App: File /config/plugins/Fanart.dll has version 1.0.2.0
-2019-06-18 15:18:48.213 Info App: File /app/emby/plugins/Fanart.dll has version 1.0.2.0
-2019-06-18 15:18:48.222 Info App: Loading Emby.Server.CinemaMode, Version=1.0.14.0, Culture=neutral, PublicKeyToken=null from /config/plugins/Emby.Server.CinemaMode.dll
-2019-06-18 15:18:48.222 Info App: Loading OpenSubtitles, Version=1.0.15.0, Culture=neutral, PublicKeyToken=null from /config/plugins/OpenSubtitles.dll
-2019-06-18 15:18:48.222 Info App: Loading AudioDb, Version=1.0.4.0, Culture=neutral, PublicKeyToken=null from /config/plugins/AudioDb.dll
-2019-06-18 15:18:48.222 Info App: Loading OMDb, Version=1.0.5.0, Culture=neutral, PublicKeyToken=null from /config/plugins/OMDb.dll
-2019-06-18 15:18:48.222 Info App: Loading Emby.PortMapper, Version=1.0.1.0, Culture=neutral, PublicKeyToken=null from /config/plugins/Emby.PortMapper.dll
-2019-06-18 15:18:48.222 Info App: Loading Emby.Dlna, Version=1.0.13.0, Culture=neutral, PublicKeyToken=null from /config/plugins/Emby.Dlna.dll
-2019-06-18 15:18:48.222 Info App: Loading StudioImages, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null from /config/plugins/StudioImages.dll
-2019-06-18 15:18:48.222 Info App: Loading Tvdb, Version=1.0.7.0, Culture=neutral, PublicKeyToken=null from /config/plugins/Tvdb.dll
-2019-06-18 15:18:48.222 Info App: Loading MovieDb, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null from /config/plugins/MovieDb.dll
-2019-06-18 15:18:48.222 Info App: Loading MusicBrainz, Version=1.0.5.0, Culture=neutral, PublicKeyToken=null from /config/plugins/MusicBrainz.dll
-2019-06-18 15:18:48.222 Info App: Loading NfoMetadata, Version=1.0.11.0, Culture=neutral, PublicKeyToken=null from /config/plugins/NfoMetadata.dll
-2019-06-18 15:18:48.222 Info App: Loading Fanart, Version=1.0.2.0, Culture=neutral, PublicKeyToken=null from /config/plugins/Fanart.dll
-2019-06-18 15:18:48.222 Info App: Loading MediaBrowser.Api, Version=4.1.1.0, Culture=neutral, PublicKeyToken=null
-2019-06-18 15:18:48.222 Info App: Loading MediaBrowser.WebDashboard, Version=4.1.1.0, Culture=neutral, PublicKeyToken=null
-2019-06-18 15:18:48.222 Info App: Loading MediaBrowser.Model, Version=4.1.1.0, Culture=neutral, PublicKeyToken=null
-2019-06-18 15:18:48.222 Info App: Loading MediaBrowser.Common, Version=4.1.1.0, Culture=neutral, PublicKeyToken=null
-2019-06-18 15:18:48.222 Info App: Loading MediaBrowser.Controller, Version=4.1.1.0, Culture=neutral, PublicKeyToken=null
-2019-06-18 15:18:48.222 Info App: Loading MediaBrowser.Providers, Version=4.1.1.0, Culture=neutral, PublicKeyToken=null
-2019-06-18 15:18:48.222 Info App: Loading Emby.Photos, Version=4.1.1.0, Culture=neutral, PublicKeyToken=null
-2019-06-18 15:18:48.222 Info App: Loading Emby.Server.Implementations, Version=4.1.1.0, Culture=neutral, PublicKeyToken=null
-2019-06-18 15:18:48.222 Info App: Loading Emby.LiveTV, Version=4.1.1.0, Culture=neutral, PublicKeyToken=null
-2019-06-18 15:18:48.222 Info App: Loading Emby.Server.MediaEncoding, Version=4.1.1.0, Culture=neutral, PublicKeyToken=null
-2019-06-18 15:18:48.222 Info App: Loading MediaBrowser.LocalMetadata, Version=4.1.1.0, Culture=neutral, PublicKeyToken=null
-2019-06-18 15:18:48.222 Info App: Loading Emby.Notifications, Version=4.1.1.0, Culture=neutral, PublicKeyToken=null
-2019-06-18 15:18:48.222 Info App: Loading Emby.Codecs.Dxva, Version=4.1.1.0, Culture=neutral, PublicKeyToken=null
-2019-06-18 15:18:48.222 Info App: Loading Emby.Codecs, Version=4.1.1.0, Culture=neutral, PublicKeyToken=null
-2019-06-18 15:18:48.222 Info App: Loading Emby.Server.Connect, Version=4.1.1.0, Culture=neutral, PublicKeyToken=null
-2019-06-18 15:18:48.222 Info App: Loading Emby.Server.Sync, Version=4.1.1.0, Culture=neutral, PublicKeyToken=null
-2019-06-18 15:18:48.222 Info App: Loading EmbyServer, Version=4.1.1.0, Culture=neutral, PublicKeyToken=null
-2019-06-18 15:18:48.383 Info SqliteUserRepository: Sqlite version: 3.26.0
-2019-06-18 15:18:48.384 Info SqliteUserRepository: Sqlite compiler options: COMPILER=gcc-6.3.0,ENABLE_COLUMN_METADATA,ENABLE_DBSTAT_VTAB,ENABLE_FTS3_PARENTHESIS,ENABLE_FTS3_TOKENIZER,ENABLE_FTS4,ENABLE_FTS5,ENABLE_JSON1,ENABLE_PREUPDATE_HOOK,ENABLE_RTREE,ENABLE_SESSION,ENABLE_UNLOCK_NOTIFY,ENABLE_UPDATE_DELETE_LIMIT,LIKE_DOESNT_MATCH_BLOBS,MAX_SCHEMA_RETRY=25,MAX_VARIABLE_NUMBER=250000,OMIT_LOOKASIDE,SECURE_DELETE,THREADSAFE=1
-2019-06-18 15:18:48.411 Info SqliteUserRepository: Default journal_mode for /config/data/users.db is wal
-2019-06-18 15:18:48.414 Info SqliteUserRepository: PRAGMA synchronous=1
-2019-06-18 15:18:48.464 Info AuthenticationRepository: Default journal_mode for /config/data/authentication.db is wal
-2019-06-18 15:18:48.464 Info AuthenticationRepository: PRAGMA synchronous=1
-2019-06-18 15:18:48.515 Info ActivityRepository: Default journal_mode for /config/data/activitylog.db is wal
-2019-06-18 15:18:48.515 Info ActivityRepository: PRAGMA synchronous=1
-2019-06-18 15:18:48.518 Info SqliteDisplayPreferencesRepository: Default journal_mode for /config/data/displaypreferences.db is wal
-2019-06-18 15:18:48.518 Info SqliteDisplayPreferencesRepository: PRAGMA synchronous=1
-2019-06-18 15:18:48.530 Info HttpServer: Adding HttpListener prefix http://+:8096/
-2019-06-18 15:18:48.530 Info HttpServer: Adding HttpListener prefix https://+:8920/
-2019-06-18 15:18:48.700 Info SqliteItemRepository: Default journal_mode for /config/data/library.db is wal
-2019-06-18 15:18:48.700 Info SqliteItemRepository: PRAGMA synchronous=1
-2019-06-18 15:18:49.819 Info Skia: SkiaSharp version: 1.68.0.0
-2019-06-18 15:18:49.860 Info TaskManager: Daily trigger for Thumbnail image extraction set to fire at 6/19/19 2:00:00 AM, which is 641.168995401667 minutes from now.
-2019-06-18 15:18:49.886 Info TaskManager: Daily trigger for Rotate log file set to fire at 6/19/19 12:00:00 AM, which is 521.168563145 minutes from now.
-2019-06-18 15:18:49.897 Info App: ServerId: 3e0ec4d434e44e2eab9b08d0b4668f91
-2019-06-18 15:18:49.966 Info App: Starting entry point Emby.Dlna.Main.DlnaEntryPoint
-2019-06-18 15:18:50.105 Info Dlna: Registering publisher for urn:schemas-upnp-org:device:MediaServer:1
-2019-06-18 15:18:50.119 Info App: Init BeginReceive on 0.0.0.0
-2019-06-18 15:18:50.126 Info App: Entry point completed: Emby.Dlna.Main.DlnaEntryPoint. Duration: 0.1594283 seconds
-2019-06-18 15:18:50.126 Info App: Starting entry point Emby.Server.MediaEncoding.Encoder.MediaEncoderEntryPoint
-2019-06-18 15:18:50.129 Info MediaEncoder: FFMpeg: /app/emby/ffmpeg
-2019-06-18 15:18:50.129 Info MediaEncoder: FFProbe: /app/emby/ffprobe
-2019-06-18 15:18:50.129 Info MediaEncoder: FFDetect: /app/emby/ffdetect
-2019-06-18 15:18:50.130 Info MediaEncoder: Validating ffmpeg capabilities at /app/emby/ffmpeg
-2019-06-18 15:18:50.145 Info MediaEncoder: ProcessRun 'ffmpeg -hide_banner -version' Execute: /app/emby/ffmpeg -hide_banner -version
-2019-06-18 15:18:50.154 Info MediaEncoder: ProcessRun 'ffmpeg -hide_banner -version' Started.
-2019-06-18 15:18:50.192 Info MediaEncoder: ProcessRun 'ffmpeg -hide_banner -version' Process exited with code 0
-2019-06-18 15:18:50.203 Info MediaEncoder: ffmpeg validation complete
-2019-06-18 15:18:50.381 Info SoftwareCodecProvider: h264, libx264, libx264 Software Encoder, V-E-libx264
-2019-06-18 15:18:50.381 Info SoftwareCodecProvider: hevc, libx265, libx264 Software Encoder, V-E-libx265
-2019-06-18 15:18:50.382 Info SoftwareCodecProvider: mpeg4, mpeg4, MPEG-4 part 2 Software Encoder, V-E-mpeg4
-2019-06-18 15:18:50.382 Info SoftwareCodecProvider: msmpeg4v3, msmpeg4, MPEG-4 part 2 (MS Variant 3) Software Encoder, V-E-msmpeg4
-2019-06-18 15:18:50.382 Info SoftwareCodecProvider: vp8, libvpx, libvpx VP8, V-E-libvpx
-2019-06-18 15:18:50.424 Info VaapiCodecProvider: ffdetect -hide_banner -show_program_version -loglevel 48 -show_error -show_log 40 vaencdec -print_format json 
-2019-06-18 15:18:50.424 Info VaapiCodecProvider: ProcessRun 'ffdetect_vaencdec' Execute: /app/emby/ffdetect -hide_banner -show_program_version -loglevel 48 -show_error -show_log 40 vaencdec -print_format json 
-2019-06-18 15:18:50.428 Info VaapiCodecProvider: ProcessRun 'ffdetect_vaencdec' Started.
-2019-06-18 15:18:50.434 Info VaapiCodecProvider: ProcessRun 'ffdetect_vaencdec' Process exited with code 0
-2019-06-18 15:18:50.445 Info App: Entry point completed: Emby.Server.MediaEncoding.Encoder.MediaEncoderEntryPoint. Duration: 0.3188806 seconds
-2019-06-18 15:18:50.445 Info App: Starting entry point Emby.Server.Connect.ConnectEntryPoint
-2019-06-18 15:18:50.447 Info App: Loading data from /config/data/connect.txt
-2019-06-18 15:18:50.448 Info App: Loading data from /config/data/wan.dat
-2019-06-18 15:18:50.459 Info App: Entry point completed: Emby.Server.Connect.ConnectEntryPoint. Duration: 0.0141373 seconds
-2019-06-18 15:18:50.459 Info App: Core startup complete
-2019-06-18 15:18:50.459 Info App: Post-init migrations complete
-2019-06-18 15:18:50.459 Info App: Starting entry point Emby.Security.PluginSecurityManager
-2019-06-18 15:18:50.459 Info App: Entry point completed: Emby.Security.PluginSecurityManager. Duration: 4.64E-05 seconds
-2019-06-18 15:18:50.459 Info App: Starting entry point Emby.Server.CinemaMode.IntrosEntryPoint
-2019-06-18 15:18:50.459 Info App: Entry point completed: Emby.Server.CinemaMode.IntrosEntryPoint. Duration: 0.0003 seconds
-2019-06-18 15:18:50.459 Info App: Starting entry point Emby.PortMapper.ExternalPortForwarding
-2019-06-18 15:18:50.463 Info App: Entry point completed: Emby.PortMapper.ExternalPortForwarding. Duration: 0.0034459 seconds
-2019-06-18 15:18:50.463 Info App: Starting entry point NfoMetadata.EntryPoint
-2019-06-18 15:18:50.464 Info App: Entry point completed: NfoMetadata.EntryPoint. Duration: 0.0007947 seconds
-2019-06-18 15:18:50.464 Info App: Starting entry point MediaBrowser.Api.ApiEntryPoint
-2019-06-18 15:18:50.464 Info App: Entry point completed: MediaBrowser.Api.ApiEntryPoint. Duration: 5.66E-05 seconds
-2019-06-18 15:18:50.464 Info App: Starting entry point Emby.Server.Implementations.Udp.UdpServerEntryPoint
-2019-06-18 15:18:50.467 Info App: Entry point completed: Emby.Server.Implementations.Udp.UdpServerEntryPoint. Duration: 0.0028195 seconds
-2019-06-18 15:18:50.467 Info App: Starting entry point Emby.Server.Implementations.News.NewsEntryPoint
-2019-06-18 15:18:50.467 Info App: Entry point completed: Emby.Server.Implementations.News.NewsEntryPoint. Duration: 0.0004222 seconds
-2019-06-18 15:18:50.467 Info App: Starting entry point Emby.Server.Implementations.Library.DeviceAccessEntryPoint
-2019-06-18 15:18:50.468 Info App: Entry point completed: Emby.Server.Implementations.Library.DeviceAccessEntryPoint. Duration: 0.0009912 seconds
-2019-06-18 15:18:50.468 Info App: Starting entry point Emby.Server.Implementations.IO.LibraryMonitorStartup
-2019-06-18 15:18:50.563 Info VaapiCodecProvider: Adapter #0: 'Device 32902:22807' Id:22807 (Driver: Intel i965 driver for Intel(R) Kaby Lake - 2.2.0, Vendor: 32902)
-2019-06-18 15:18:50.709 Info App: Entry point completed: Emby.Server.Implementations.IO.LibraryMonitorStartup. Duration: 0.2408257 seconds
-2019-06-18 15:18:50.709 Info App: Starting entry point Emby.Server.Implementations.EntryPoints.AutomaticRestartEntryPoint
-2019-06-18 15:18:50.710 Info App: Entry point completed: Emby.Server.Implementations.EntryPoints.AutomaticRestartEntryPoint. Duration: 0.0012263 seconds
-2019-06-18 15:18:50.710 Info App: Starting entry point Emby.Server.Implementations.EntryPoints.KeepServerAwake
-2019-06-18 15:18:50.711 Info App: Entry point completed: Emby.Server.Implementations.EntryPoints.KeepServerAwake. Duration: 0.0004601 seconds
-2019-06-18 15:18:50.711 Info App: Starting entry point Emby.Server.Implementations.EntryPoints.LibraryChangedNotifier
-2019-06-18 15:18:50.714 Info App: Entry point completed: Emby.Server.Implementations.EntryPoints.LibraryChangedNotifier. Duration: 0.0035119 seconds
-2019-06-18 15:18:50.714 Info App: Starting entry point Emby.Server.Implementations.EntryPoints.ServerEventNotifier
-2019-06-18 15:18:50.720 Info App: Entry point completed: Emby.Server.Implementations.EntryPoints.ServerEventNotifier. Duration: 0.0060152 seconds
-2019-06-18 15:18:50.721 Info App: Starting entry point Emby.Server.Implementations.EntryPoints.StartupWizard
-2019-06-18 15:18:50.722 Info App: Entry point completed: Emby.Server.Implementations.EntryPoints.StartupWizard. Duration: 0.0010784 seconds
-2019-06-18 15:18:50.722 Info App: Starting entry point Emby.Server.Implementations.EntryPoints.SystemEvents
-2019-06-18 15:18:50.722 Info App: Entry point completed: Emby.Server.Implementations.EntryPoints.SystemEvents. Duration: 0.000734 seconds
-2019-06-18 15:18:50.722 Info App: Starting entry point Emby.Server.Implementations.EntryPoints.UserDataChangeNotifier
-2019-06-18 15:18:50.723 Info App: Entry point completed: Emby.Server.Implementations.EntryPoints.UserDataChangeNotifier. Duration: 0.0003141 seconds
-2019-06-18 15:18:50.723 Info App: Starting entry point Emby.Server.Implementations.Channels.ChannelsEntryPoint
-2019-06-18 15:18:50.725 Info App: Entry point completed: Emby.Server.Implementations.Channels.ChannelsEntryPoint. Duration: 0.0023792 seconds
-2019-06-18 15:18:50.725 Info App: Starting entry point Emby.Server.Implementations.Activity.ActivityLogEntryPoint
-2019-06-18 15:18:50.733 Info App: Entry point completed: Emby.Server.Implementations.Activity.ActivityLogEntryPoint. Duration: 0.008244 seconds
-2019-06-18 15:18:50.734 Info App: Starting entry point Emby.LiveTV.EntryPoint
-2019-06-18 15:18:50.740 Info App: Loading live tv data from /config/data/livetv/timers
-2019-06-18 15:18:50.753 Info QuickSyncCodecProvider: ffdetect -hide_banner -show_program_version -loglevel 48 -show_error -show_log 40 qsvencdec -print_format json 
-2019-06-18 15:18:50.753 Info QuickSyncCodecProvider: ProcessRun 'ffdetect_qsvencdec' Execute: /app/emby/ffdetect -hide_banner -show_program_version -loglevel 48 -show_error -show_log 40 qsvencdec -print_format json 
-2019-06-18 15:18:50.757 Info QuickSyncCodecProvider: ProcessRun 'ffdetect_qsvencdec' Started.
-2019-06-18 15:18:50.766 Info QuickSyncCodecProvider: ProcessRun 'ffdetect_qsvencdec' Process exited with code 0
-2019-06-18 15:18:50.778 Info App: Entry point completed: Emby.LiveTV.EntryPoint. Duration: 0.0443407 seconds
-2019-06-18 15:18:50.778 Info App: Starting entry point Emby.LiveTV.RecordingNotifier
-2019-06-18 15:18:50.782 Info App: Entry point completed: Emby.LiveTV.RecordingNotifier. Duration: 0.0035899 seconds
-2019-06-18 15:18:50.782 Info App: Starting entry point Emby.Server.MediaEncoding.Api.EncodingManagerEntryPoint
-2019-06-18 15:18:50.785 Info App: Entry point completed: Emby.Server.MediaEncoding.Api.EncodingManagerEntryPoint. Duration: 0.0026918 seconds
-2019-06-18 15:18:50.785 Info App: Starting entry point Emby.Notifications.Notifications
-2019-06-18 15:18:50.786 Info App: Entry point completed: Emby.Notifications.Notifications. Duration: 0.001053 seconds
-2019-06-18 15:18:50.786 Info App: Starting entry point Emby.Server.Sync.SyncManagerEntryPoint
-2019-06-18 15:18:50.802 Info App: SyncRepository Initialize taking write lock
-2019-06-18 15:18:50.802 Info App: SyncRepository Initialize write lock taken
-2019-06-18 15:18:50.803 Info App: Entry point completed: Emby.Server.Sync.SyncManagerEntryPoint. Duration: 0.0171682 seconds
-2019-06-18 15:18:50.803 Info App: Starting entry point Emby.Server.Sync.SyncNotificationEntryPoint
-2019-06-18 15:18:50.808 Info App: Entry point completed: Emby.Server.Sync.SyncNotificationEntryPoint. Duration: 0.005091 seconds
-2019-06-18 15:18:50.808 Info App: Starting entry point EmbyServer.Windows.LoopUtilEntryPoint
-2019-06-18 15:18:50.809 Info App: Entry point completed: EmbyServer.Windows.LoopUtilEntryPoint. Duration: 0.000731 seconds
-2019-06-18 15:18:50.809 Info App: All entry points have started
-2019-06-18 15:18:50.848 Info NvidiaCodecProvider: ffdetect -hide_banner -show_program_version -loglevel 48 -show_error -show_log 40 nvencdec -print_format json 
-2019-06-18 15:18:50.848 Info NvidiaCodecProvider: ProcessRun 'ffdetect_nvencdec' Execute: /app/emby/ffdetect -hide_banner -show_program_version -loglevel 48 -show_error -show_log 40 nvencdec -print_format json 
-2019-06-18 15:18:50.855 Info NvidiaCodecProvider: ProcessRun 'ffdetect_nvencdec' Started.
-2019-06-18 15:18:50.858 Info NvidiaCodecProvider: ProcessRun 'ffdetect_nvencdec' Process exited with code 1
-2019-06-18 15:18:51.012 Info HttpClient: GET https://emby.media/community/index.php?/blog/rss/1-media-browser-developers-blog
-2019-06-18 15:18:52.883 Info TaskManager: StartupTrigger fired for task: Check for plugin updates
-2019-06-18 15:18:52.884 Info TaskManager: Queueing task PluginUpdateTask
-2019-06-18 15:18:52.885 Info TaskManager: StartupTrigger fired for task: Check for application updates
-2019-06-18 15:18:52.885 Info TaskManager: Queueing task SystemUpdateTask
-2019-06-18 15:18:52.891 Info TaskManager: Executing Check for plugin updates
-2019-06-18 15:18:52.891 Info TaskManager: Executing Check for application updates
-2019-06-18 15:18:52.905 Info HttpClient: GET https://www.mb3admin.com/admin/service/EmbyPackages.json
-2019-06-18 15:18:52.981 Info TaskManager: Check for application updates Completed after 0 minute(s) and 0 seconds
-2019-06-18 15:18:53.004 Info TaskManager: ExecuteQueuedTasks
-2019-06-18 15:19:21.238 Info TaskManager: Check for plugin updates Completed after 0 minute(s) and 28 seconds
-2019-06-18 15:19:21.239 Info TaskManager: ExecuteQueuedTasks
-2019-06-18 15:20:27.693 Info HttpServer: Stopping HttpListener...
-2019-06-18 15:20:27.701 Info HttpServer: HttpListener stopped
-2019-06-18 15:20:27.701 Info App: Disposing CoreAppHost
-2019-06-18 15:20:27.702 Info App: Disposing LoopUtilEntryPoint
-2019-06-18 15:20:27.702 Info App: Disposing SyncNotificationEntryPoint
-2019-06-18 15:20:27.704 Info App: Disposing SyncManagerEntryPoint
-2019-06-18 15:20:27.704 Info App: Disposing ConnectEntryPoint
-2019-06-18 15:20:27.705 Info App: Disposing Notifications
-2019-06-18 15:20:27.706 Info App: Disposing EncodingManagerEntryPoint
-2019-06-18 15:20:27.706 Info App: Disposing MediaEncoderEntryPoint
-2019-06-18 15:20:27.706 Info App: Disposing RecordingNotifier
-2019-06-18 15:20:27.709 Info App: Disposing EntryPoint
-2019-06-18 15:20:27.709 Info App: Disposing ActivityLogEntryPoint
-2019-06-18 15:20:27.716 Info App: Disposing ChannelsEntryPoint
-2019-06-18 15:20:27.716 Info App: Disposing UserDataChangeNotifier
-2019-06-18 15:20:27.717 Info App: Disposing SystemEvents
-2019-06-18 15:20:27.717 Info App: Disposing StartupWizard
-2019-06-18 15:20:27.717 Info App: Disposing ServerEventNotifier
-2019-06-18 15:20:27.719 Info App: Disposing LibraryChangedNotifier
-2019-06-18 15:20:27.723 Info App: Disposing KeepServerAwake
-2019-06-18 15:20:27.723 Info App: Disposing AutomaticRestartEntryPoint
-2019-06-18 15:20:27.724 Info App: Disposing LibraryMonitorStartup
-2019-06-18 15:20:27.724 Info App: Disposing DeviceAccessEntryPoint
-2019-06-18 15:20:27.724 Info App: Disposing NewsEntryPoint
-2019-06-18 15:20:27.724 Info App: Disposing UdpServerEntryPoint
-2019-06-18 15:20:27.724 Info App: Disposing ApiEntryPoint
-2019-06-18 15:20:27.724 Info App: Disposing EntryPoint
-2019-06-18 15:20:27.725 Info App: Disposing DlnaEntryPoint
-2019-06-18 15:20:27.725 Info Dlna: Disposing PlayToManager
-2019-06-18 15:20:27.726 Info App: Disposing ExternalPortForwarding
-2019-06-18 15:20:27.727 Info App: Disposing IntrosEntryPoint
-2019-06-18 15:20:27.727 Info App: Disposing PluginSecurityManager
-2019-06-18 15:20:27.727 Info App: Disposing StrmMounter
-2019-06-18 15:20:27.727 Info App: Disposing DvdMounter
-2019-06-18 15:20:27.727 Info App: Disposing BlurayMounter
-2019-06-18 15:20:27.727 Info App: Disposing OpenSubtitleDownloader
-2019-06-18 15:20:27.728 Info App: Disposing HauppaugeTunerWindows
-2019-06-18 15:20:27.728 Info App: Disposing EmbyTV
-2019-06-18 15:20:27.728 Info App: Disposing SessionWebSocketListener
-2019-06-18 15:20:27.729 Info App: Disposing ScheduledTasksWebSocketListener
-2019-06-18 15:20:27.730 Info App: Disposing SessionInfoWebSocketListener
-2019-06-18 15:20:27.731 Info App: Disposing ActivityLogWebSocketListener
-2019-06-18 15:20:27.732 Info App: Disposing EncodingManager
-2019-06-18 15:20:27.732 Info App: Disposing ActivityRepository
-2019-06-18 15:20:27.736 Info App: Disposing MediaEncoder
-2019-06-18 15:20:27.739 Info App: Disposing SsdpDevicePublisher
+2019-06-18 16:05:29.450 Info App: Application version: 4.1.1.0
+2019-06-18 16:05:29.453 Info App: Loading assemblies
+2019-06-18 16:05:29.474 Info App: File /config/plugins/Emby.Server.CinemaMode.dll has version 1.0.14.0
+2019-06-18 16:05:29.474 Info App: File /app/emby/plugins/Emby.Server.CinemaMode.dll has version 1.0.14.0
+2019-06-18 16:05:29.474 Info App: File /config/plugins/OpenSubtitles.dll has version 1.0.15.0
+2019-06-18 16:05:29.474 Info App: File /app/emby/plugins/OpenSubtitles.dll has version 1.0.15.0
+2019-06-18 16:05:29.474 Info App: File /config/plugins/AudioDb.dll has version 1.0.4.0
+2019-06-18 16:05:29.474 Info App: File /app/emby/plugins/AudioDb.dll has version 1.0.4.0
+2019-06-18 16:05:29.474 Info App: File /config/plugins/OMDb.dll has version 1.0.5.0
+2019-06-18 16:05:29.474 Info App: File /app/emby/plugins/OMDb.dll has version 1.0.5.0
+2019-06-18 16:05:29.475 Info App: File /config/plugins/Emby.PortMapper.dll has version 1.0.1.0
+2019-06-18 16:05:29.475 Info App: File /app/emby/plugins/Emby.PortMapper.dll has version 1.0.1.0
+2019-06-18 16:05:29.475 Info App: File /config/plugins/Emby.Dlna.dll has version 1.0.13.0
+2019-06-18 16:05:29.475 Info App: File /app/emby/plugins/Emby.Dlna.dll has version 1.0.13.0
+2019-06-18 16:05:29.475 Info App: File /config/plugins/StudioImages.dll has version 1.0.0.0
+2019-06-18 16:05:29.475 Info App: File /app/emby/plugins/StudioImages.dll has version 1.0.0.0
+2019-06-18 16:05:29.475 Info App: File /config/plugins/Tvdb.dll has version 1.0.7.0
+2019-06-18 16:05:29.475 Info App: File /app/emby/plugins/Tvdb.dll has version 1.0.6.0
+2019-06-18 16:05:29.476 Info App: File /config/plugins/MovieDb.dll has version 1.1.1.0
+2019-06-18 16:05:29.476 Info App: File /app/emby/plugins/MovieDb.dll has version 1.0.8.0
+2019-06-18 16:05:29.476 Info App: File /config/plugins/MusicBrainz.dll has version 1.0.5.0
+2019-06-18 16:05:29.476 Info App: File /app/emby/plugins/MusicBrainz.dll has version 1.0.5.0
+2019-06-18 16:05:29.476 Info App: File /config/plugins/NfoMetadata.dll has version 1.0.11.0
+2019-06-18 16:05:29.476 Info App: File /app/emby/plugins/NfoMetadata.dll has version 1.0.11.0
+2019-06-18 16:05:29.476 Info App: File /config/plugins/Fanart.dll has version 1.0.2.0
+2019-06-18 16:05:29.476 Info App: File /app/emby/plugins/Fanart.dll has version 1.0.2.0
+2019-06-18 16:05:29.486 Info App: Loading Emby.Server.CinemaMode, Version=1.0.14.0, Culture=neutral, PublicKeyToken=null from /config/plugins/Emby.Server.CinemaMode.dll
+2019-06-18 16:05:29.486 Info App: Loading OpenSubtitles, Version=1.0.15.0, Culture=neutral, PublicKeyToken=null from /config/plugins/OpenSubtitles.dll
+2019-06-18 16:05:29.486 Info App: Loading AudioDb, Version=1.0.4.0, Culture=neutral, PublicKeyToken=null from /config/plugins/AudioDb.dll
+2019-06-18 16:05:29.486 Info App: Loading OMDb, Version=1.0.5.0, Culture=neutral, PublicKeyToken=null from /config/plugins/OMDb.dll
+2019-06-18 16:05:29.486 Info App: Loading Emby.PortMapper, Version=1.0.1.0, Culture=neutral, PublicKeyToken=null from /config/plugins/Emby.PortMapper.dll
+2019-06-18 16:05:29.486 Info App: Loading Emby.Dlna, Version=1.0.13.0, Culture=neutral, PublicKeyToken=null from /config/plugins/Emby.Dlna.dll
+2019-06-18 16:05:29.486 Info App: Loading StudioImages, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null from /config/plugins/StudioImages.dll
+2019-06-18 16:05:29.486 Info App: Loading Tvdb, Version=1.0.7.0, Culture=neutral, PublicKeyToken=null from /config/plugins/Tvdb.dll
+2019-06-18 16:05:29.486 Info App: Loading MovieDb, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null from /config/plugins/MovieDb.dll
+2019-06-18 16:05:29.486 Info App: Loading MusicBrainz, Version=1.0.5.0, Culture=neutral, PublicKeyToken=null from /config/plugins/MusicBrainz.dll
+2019-06-18 16:05:29.486 Info App: Loading NfoMetadata, Version=1.0.11.0, Culture=neutral, PublicKeyToken=null from /config/plugins/NfoMetadata.dll
+2019-06-18 16:05:29.486 Info App: Loading Fanart, Version=1.0.2.0, Culture=neutral, PublicKeyToken=null from /config/plugins/Fanart.dll
+2019-06-18 16:05:29.486 Info App: Loading MediaBrowser.Api, Version=4.1.1.0, Culture=neutral, PublicKeyToken=null
+2019-06-18 16:05:29.486 Info App: Loading MediaBrowser.WebDashboard, Version=4.1.1.0, Culture=neutral, PublicKeyToken=null
+2019-06-18 16:05:29.486 Info App: Loading MediaBrowser.Model, Version=4.1.1.0, Culture=neutral, PublicKeyToken=null
+2019-06-18 16:05:29.486 Info App: Loading MediaBrowser.Common, Version=4.1.1.0, Culture=neutral, PublicKeyToken=null
+2019-06-18 16:05:29.486 Info App: Loading MediaBrowser.Controller, Version=4.1.1.0, Culture=neutral, PublicKeyToken=null
+2019-06-18 16:05:29.486 Info App: Loading MediaBrowser.Providers, Version=4.1.1.0, Culture=neutral, PublicKeyToken=null
+2019-06-18 16:05:29.486 Info App: Loading Emby.Photos, Version=4.1.1.0, Culture=neutral, PublicKeyToken=null
+2019-06-18 16:05:29.486 Info App: Loading Emby.Server.Implementations, Version=4.1.1.0, Culture=neutral, PublicKeyToken=null
+2019-06-18 16:05:29.486 Info App: Loading Emby.LiveTV, Version=4.1.1.0, Culture=neutral, PublicKeyToken=null
+2019-06-18 16:05:29.486 Info App: Loading Emby.Server.MediaEncoding, Version=4.1.1.0, Culture=neutral, PublicKeyToken=null
+2019-06-18 16:05:29.486 Info App: Loading MediaBrowser.LocalMetadata, Version=4.1.1.0, Culture=neutral, PublicKeyToken=null
+2019-06-18 16:05:29.487 Info App: Loading Emby.Notifications, Version=4.1.1.0, Culture=neutral, PublicKeyToken=null
+2019-06-18 16:05:29.487 Info App: Loading Emby.Codecs.Dxva, Version=4.1.1.0, Culture=neutral, PublicKeyToken=null
+2019-06-18 16:05:29.487 Info App: Loading Emby.Codecs, Version=4.1.1.0, Culture=neutral, PublicKeyToken=null
+2019-06-18 16:05:29.487 Info App: Loading Emby.Server.Connect, Version=4.1.1.0, Culture=neutral, PublicKeyToken=null
+2019-06-18 16:05:29.487 Info App: Loading Emby.Server.Sync, Version=4.1.1.0, Culture=neutral, PublicKeyToken=null
+2019-06-18 16:05:29.487 Info App: Loading EmbyServer, Version=4.1.1.0, Culture=neutral, PublicKeyToken=null
+2019-06-18 16:05:29.647 Info SqliteUserRepository: Sqlite version: 3.26.0
+2019-06-18 16:05:29.648 Info SqliteUserRepository: Sqlite compiler options: COMPILER=gcc-6.3.0,ENABLE_COLUMN_METADATA,ENABLE_DBSTAT_VTAB,ENABLE_FTS3_PARENTHESIS,ENABLE_FTS3_TOKENIZER,ENABLE_FTS4,ENABLE_FTS5,ENABLE_JSON1,ENABLE_PREUPDATE_HOOK,ENABLE_RTREE,ENABLE_SESSION,ENABLE_UNLOCK_NOTIFY,ENABLE_UPDATE_DELETE_LIMIT,LIKE_DOESNT_MATCH_BLOBS,MAX_SCHEMA_RETRY=25,MAX_VARIABLE_NUMBER=250000,OMIT_LOOKASIDE,SECURE_DELETE,THREADSAFE=1
+2019-06-18 16:05:29.679 Info SqliteUserRepository: Default journal_mode for /config/data/users.db is wal
+2019-06-18 16:05:29.683 Info SqliteUserRepository: PRAGMA synchronous=1
+2019-06-18 16:05:29.741 Info AuthenticationRepository: Default journal_mode for /config/data/authentication.db is wal
+2019-06-18 16:05:29.741 Info AuthenticationRepository: PRAGMA synchronous=1
+2019-06-18 16:05:29.805 Info ActivityRepository: Default journal_mode for /config/data/activitylog.db is wal
+2019-06-18 16:05:29.805 Info ActivityRepository: PRAGMA synchronous=1
+2019-06-18 16:05:29.809 Info SqliteDisplayPreferencesRepository: Default journal_mode for /config/data/displaypreferences.db is wal
+2019-06-18 16:05:29.809 Info SqliteDisplayPreferencesRepository: PRAGMA synchronous=1
+2019-06-18 16:05:29.820 Info HttpServer: Adding HttpListener prefix http://+:8096/
+2019-06-18 16:05:29.821 Info HttpServer: Adding HttpListener prefix https://+:8920/
+2019-06-18 16:05:29.989 Info SqliteItemRepository: Default journal_mode for /config/data/library.db is wal
+2019-06-18 16:05:29.989 Info SqliteItemRepository: PRAGMA synchronous=1
+2019-06-18 16:05:30.937 Info Skia: SkiaSharp version: 1.68.0.0
+2019-06-18 16:05:30.974 Info TaskManager: Daily trigger for Thumbnail image extraction set to fire at 6/19/19 2:00:00 AM, which is 594.483754738333 minutes from now.
+2019-06-18 16:05:31.005 Info TaskManager: Daily trigger for Rotate log file set to fire at 6/19/19 12:00:00 AM, which is 474.483246035 minutes from now.
+2019-06-18 16:05:31.016 Info App: ServerId: 3e0ec4d434e44e2eab9b08d0b4668f91
+2019-06-18 16:05:31.076 Info App: Starting entry point Emby.Dlna.Main.DlnaEntryPoint
+2019-06-18 16:05:31.215 Info Dlna: Registering publisher for urn:schemas-upnp-org:device:MediaServer:1
+2019-06-18 16:05:31.228 Info App: Init BeginReceive on 0.0.0.0
+2019-06-18 16:05:31.237 Info App: Entry point completed: Emby.Dlna.Main.DlnaEntryPoint. Duration: 0.1604289 seconds
+2019-06-18 16:05:31.237 Info App: Starting entry point Emby.Server.MediaEncoding.Encoder.MediaEncoderEntryPoint
+2019-06-18 16:05:31.241 Info MediaEncoder: FFMpeg: /app/emby/ffmpeg
+2019-06-18 16:05:31.241 Info MediaEncoder: FFProbe: /app/emby/ffprobe
+2019-06-18 16:05:31.241 Info MediaEncoder: FFDetect: /app/emby/ffdetect
+2019-06-18 16:05:31.242 Info MediaEncoder: Validating ffmpeg capabilities at /app/emby/ffmpeg
+2019-06-18 16:05:31.257 Info MediaEncoder: ProcessRun 'ffmpeg -hide_banner -version' Execute: /app/emby/ffmpeg -hide_banner -version
+2019-06-18 16:05:31.266 Info MediaEncoder: ProcessRun 'ffmpeg -hide_banner -version' Started.
+2019-06-18 16:05:31.310 Info MediaEncoder: ProcessRun 'ffmpeg -hide_banner -version' Process exited with code 0
+2019-06-18 16:05:31.321 Info MediaEncoder: ffmpeg validation complete
+2019-06-18 16:05:31.456 Info SoftwareCodecProvider: h264, libx264, libx264 Software Encoder, V-E-libx264
+2019-06-18 16:05:31.456 Info SoftwareCodecProvider: hevc, libx265, libx264 Software Encoder, V-E-libx265
+2019-06-18 16:05:31.456 Info SoftwareCodecProvider: mpeg4, mpeg4, MPEG-4 part 2 Software Encoder, V-E-mpeg4
+2019-06-18 16:05:31.456 Info SoftwareCodecProvider: msmpeg4v3, msmpeg4, MPEG-4 part 2 (MS Variant 3) Software Encoder, V-E-msmpeg4
+2019-06-18 16:05:31.456 Info SoftwareCodecProvider: vp8, libvpx, libvpx VP8, V-E-libvpx
+2019-06-18 16:05:31.478 Info VaapiCodecProvider: ffdetect -hide_banner -show_program_version -loglevel 48 -show_error -show_log 40 vaencdec -print_format json 
+2019-06-18 16:05:31.478 Info VaapiCodecProvider: ProcessRun 'ffdetect_vaencdec' Execute: /app/emby/ffdetect -hide_banner -show_program_version -loglevel 48 -show_error -show_log 40 vaencdec -print_format json 
+2019-06-18 16:05:31.481 Info VaapiCodecProvider: ProcessRun 'ffdetect_vaencdec' Started.
+2019-06-18 16:05:31.485 Info VaapiCodecProvider: ProcessRun 'ffdetect_vaencdec' Process exited with code 0
+2019-06-18 16:05:31.491 Info App: Entry point completed: Emby.Server.MediaEncoding.Encoder.MediaEncoderEntryPoint. Duration: 0.2546054 seconds
+2019-06-18 16:05:31.492 Info App: Starting entry point Emby.Server.Connect.ConnectEntryPoint
+2019-06-18 16:05:31.493 Info App: Loading data from /config/data/connect.txt
+2019-06-18 16:05:31.494 Info App: Loading data from /config/data/wan.dat
+2019-06-18 16:05:31.503 Info App: Entry point completed: Emby.Server.Connect.ConnectEntryPoint. Duration: 0.0118041 seconds
+2019-06-18 16:05:31.503 Info App: Core startup complete
+2019-06-18 16:05:31.503 Info App: Post-init migrations complete
+2019-06-18 16:05:31.503 Info App: Starting entry point Emby.Security.PluginSecurityManager
+2019-06-18 16:05:31.503 Info App: Entry point completed: Emby.Security.PluginSecurityManager. Duration: 4.27E-05 seconds
+2019-06-18 16:05:31.504 Info App: Starting entry point Emby.Server.CinemaMode.IntrosEntryPoint
+2019-06-18 16:05:31.504 Info App: Entry point completed: Emby.Server.CinemaMode.IntrosEntryPoint. Duration: 0.0002231 seconds
+2019-06-18 16:05:31.504 Info App: Starting entry point Emby.PortMapper.ExternalPortForwarding
+2019-06-18 16:05:31.506 Info App: Entry point completed: Emby.PortMapper.ExternalPortForwarding. Duration: 0.0025022 seconds
+2019-06-18 16:05:31.506 Info App: Starting entry point NfoMetadata.EntryPoint
+2019-06-18 16:05:31.507 Info App: Entry point completed: NfoMetadata.EntryPoint. Duration: 0.0006048 seconds
+2019-06-18 16:05:31.507 Info App: Starting entry point MediaBrowser.Api.ApiEntryPoint
+2019-06-18 16:05:31.507 Info App: Entry point completed: MediaBrowser.Api.ApiEntryPoint. Duration: 3.7E-05 seconds
+2019-06-18 16:05:31.507 Info App: Starting entry point Emby.Server.Implementations.Udp.UdpServerEntryPoint
+2019-06-18 16:05:31.509 Info App: Entry point completed: Emby.Server.Implementations.Udp.UdpServerEntryPoint. Duration: 0.0020036 seconds
+2019-06-18 16:05:31.509 Info App: Starting entry point Emby.Server.Implementations.News.NewsEntryPoint
+2019-06-18 16:05:31.509 Info App: Entry point completed: Emby.Server.Implementations.News.NewsEntryPoint. Duration: 0.0003169 seconds
+2019-06-18 16:05:31.509 Info App: Starting entry point Emby.Server.Implementations.Library.DeviceAccessEntryPoint
+2019-06-18 16:05:31.510 Info App: Entry point completed: Emby.Server.Implementations.Library.DeviceAccessEntryPoint. Duration: 0.0006293 seconds
+2019-06-18 16:05:31.510 Info App: Starting entry point Emby.Server.Implementations.IO.LibraryMonitorStartup
+2019-06-18 16:05:31.584 Info VaapiCodecProvider: Adapter #0: 'Device 32902:22807' Id:22807 (Driver: Intel i965 driver for Intel(R) Kaby Lake - 2.2.0, Vendor: 32902)
+2019-06-18 16:05:31.697 Info App: Entry point completed: Emby.Server.Implementations.IO.LibraryMonitorStartup. Duration: 0.1870825 seconds
+2019-06-18 16:05:31.697 Info App: Starting entry point Emby.Server.Implementations.EntryPoints.AutomaticRestartEntryPoint
+2019-06-18 16:05:31.698 Info App: Entry point completed: Emby.Server.Implementations.EntryPoints.AutomaticRestartEntryPoint. Duration: 0.0012591 seconds
+2019-06-18 16:05:31.698 Info App: Starting entry point Emby.Server.Implementations.EntryPoints.KeepServerAwake
+2019-06-18 16:05:31.699 Info App: Entry point completed: Emby.Server.Implementations.EntryPoints.KeepServerAwake. Duration: 0.0004573 seconds
+2019-06-18 16:05:31.699 Info App: Starting entry point Emby.Server.Implementations.EntryPoints.LibraryChangedNotifier
+2019-06-18 16:05:31.702 Info App: Entry point completed: Emby.Server.Implementations.EntryPoints.LibraryChangedNotifier. Duration: 0.0025858 seconds
+2019-06-18 16:05:31.702 Info App: Starting entry point Emby.Server.Implementations.EntryPoints.ServerEventNotifier
+2019-06-18 16:05:31.706 Info App: Entry point completed: Emby.Server.Implementations.EntryPoints.ServerEventNotifier. Duration: 0.004006 seconds
+2019-06-18 16:05:31.706 Info App: Starting entry point Emby.Server.Implementations.EntryPoints.StartupWizard
+2019-06-18 16:05:31.706 Info App: Entry point completed: Emby.Server.Implementations.EntryPoints.StartupWizard. Duration: 0.0007705 seconds
+2019-06-18 16:05:31.706 Info App: Starting entry point Emby.Server.Implementations.EntryPoints.SystemEvents
+2019-06-18 16:05:31.707 Info App: Entry point completed: Emby.Server.Implementations.EntryPoints.SystemEvents. Duration: 0.0005305 seconds
+2019-06-18 16:05:31.707 Info App: Starting entry point Emby.Server.Implementations.EntryPoints.UserDataChangeNotifier
+2019-06-18 16:05:31.707 Info App: Entry point completed: Emby.Server.Implementations.EntryPoints.UserDataChangeNotifier. Duration: 0.0002218 seconds
+2019-06-18 16:05:31.707 Info App: Starting entry point Emby.Server.Implementations.Channels.ChannelsEntryPoint
+2019-06-18 16:05:31.709 Info App: Entry point completed: Emby.Server.Implementations.Channels.ChannelsEntryPoint. Duration: 0.0017086 seconds
+2019-06-18 16:05:31.709 Info App: Starting entry point Emby.Server.Implementations.Activity.ActivityLogEntryPoint
+2019-06-18 16:05:31.717 Info App: Entry point completed: Emby.Server.Implementations.Activity.ActivityLogEntryPoint. Duration: 0.0077839 seconds
+2019-06-18 16:05:31.717 Info App: Starting entry point Emby.LiveTV.EntryPoint
+2019-06-18 16:05:31.724 Info App: Loading live tv data from /config/data/livetv/timers
+2019-06-18 16:05:31.755 Info App: Entry point completed: Emby.LiveTV.EntryPoint. Duration: 0.0385446 seconds
+2019-06-18 16:05:31.755 Info App: Starting entry point Emby.LiveTV.RecordingNotifier
+2019-06-18 16:05:31.759 Info App: Entry point completed: Emby.LiveTV.RecordingNotifier. Duration: 0.0039319 seconds
+2019-06-18 16:05:31.760 Info App: Starting entry point Emby.Server.MediaEncoding.Api.EncodingManagerEntryPoint
+2019-06-18 16:05:31.762 Info App: Entry point completed: Emby.Server.MediaEncoding.Api.EncodingManagerEntryPoint. Duration: 0.0021785 seconds
+2019-06-18 16:05:31.762 Info App: Starting entry point Emby.Notifications.Notifications
+2019-06-18 16:05:31.763 Info App: Entry point completed: Emby.Notifications.Notifications. Duration: 0.0012892 seconds
+2019-06-18 16:05:31.763 Info App: Starting entry point Emby.Server.Sync.SyncManagerEntryPoint
+2019-06-18 16:05:31.765 Info QuickSyncCodecProvider: ffdetect -hide_banner -show_program_version -loglevel 48 -show_error -show_log 40 qsvencdec -print_format json 
+2019-06-18 16:05:31.765 Info QuickSyncCodecProvider: ProcessRun 'ffdetect_qsvencdec' Execute: /app/emby/ffdetect -hide_banner -show_program_version -loglevel 48 -show_error -show_log 40 qsvencdec -print_format json 
+2019-06-18 16:05:31.775 Info QuickSyncCodecProvider: ProcessRun 'ffdetect_qsvencdec' Started.
+2019-06-18 16:05:31.780 Info QuickSyncCodecProvider: ProcessRun 'ffdetect_qsvencdec' Process exited with code 0
+2019-06-18 16:05:31.783 Info App: SyncRepository Initialize taking write lock
+2019-06-18 16:05:31.783 Info App: SyncRepository Initialize write lock taken
+2019-06-18 16:05:31.784 Info App: Entry point completed: Emby.Server.Sync.SyncManagerEntryPoint. Duration: 0.0206882 seconds
+2019-06-18 16:05:31.784 Info App: Starting entry point Emby.Server.Sync.SyncNotificationEntryPoint
+2019-06-18 16:05:31.788 Info App: Entry point completed: Emby.Server.Sync.SyncNotificationEntryPoint. Duration: 0.0044637 seconds
+2019-06-18 16:05:31.788 Info App: Starting entry point EmbyServer.Windows.LoopUtilEntryPoint
+2019-06-18 16:05:31.789 Info App: Entry point completed: EmbyServer.Windows.LoopUtilEntryPoint. Duration: 0.0004345 seconds
+2019-06-18 16:05:31.789 Info App: All entry points have started
+2019-06-18 16:05:31.847 Info NvidiaCodecProvider: ffdetect -hide_banner -show_program_version -loglevel 48 -show_error -show_log 40 nvencdec -print_format json 
+2019-06-18 16:05:31.847 Info NvidiaCodecProvider: ProcessRun 'ffdetect_nvencdec' Execute: /app/emby/ffdetect -hide_banner -show_program_version -loglevel 48 -show_error -show_log 40 nvencdec -print_format json 
+2019-06-18 16:05:31.852 Info NvidiaCodecProvider: ProcessRun 'ffdetect_nvencdec' Started.
+2019-06-18 16:05:31.855 Info NvidiaCodecProvider: ProcessRun 'ffdetect_nvencdec' Process exited with code 1
+2019-06-18 16:05:32.053 Info HttpClient: GET https://emby.media/community/index.php?/blog/rss/1-media-browser-developers-blog
+2019-06-18 16:05:33.995 Info TaskManager: StartupTrigger fired for task: Check for plugin updates
+2019-06-18 16:05:33.996 Info TaskManager: Queueing task PluginUpdateTask
+2019-06-18 16:05:34.001 Info TaskManager: StartupTrigger fired for task: Check for application updates
+2019-06-18 16:05:34.001 Info TaskManager: Queueing task SystemUpdateTask
+2019-06-18 16:05:34.005 Info TaskManager: Executing Check for plugin updates
+2019-06-18 16:05:34.005 Info TaskManager: Executing Check for application updates
+2019-06-18 16:05:34.024 Info HttpClient: GET https://www.mb3admin.com/admin/service/EmbyPackages.json
+2019-06-18 16:05:34.097 Info TaskManager: Check for application updates Completed after 0 minute(s) and 0 seconds
+2019-06-18 16:05:34.117 Info TaskManager: ExecuteQueuedTasks
+2019-06-18 16:05:36.361 Info HttpServer: HTTP GET http://emby:8096/. UserAgent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-18 16:05:36.375 Info HttpServer: HTTP Response 302 to 172.28.0.6. Time: 24ms. http://emby:8096/
+2019-06-18 16:05:36.670 Info HttpServer: HTTP GET http://emby:8096/web/touchicon114.png. UserAgent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-18 16:05:36.671 Info HttpServer: HTTP Response 200 to 172.28.0.6. Time: 1ms. http://emby:8096/web/touchicon114.png
+2019-06-18 16:05:36.673 Info HttpServer: HTTP GET http://emby:8096/web/favicon.ico. UserAgent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-18 16:05:36.674 Info HttpServer: HTTP Response 200 to 172.28.0.6. Time: 1ms. http://emby:8096/web/favicon.ico
+2019-06-18 16:05:36.956 Info HttpServer: HTTP GET http://emby:8096/web/strings/en-US.json?v=1560854136924. UserAgent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-18 16:05:36.956 Info HttpServer: HTTP GET http://emby:8096/web/bower_components/emby-webcomponents/strings/en-US.json?v=1560854136924. UserAgent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-18 16:05:36.956 Info HttpServer: HTTP Response 200 to 172.28.0.6. Time: 1ms. http://emby:8096/web/bower_components/emby-webcomponents/strings/en-US.json?v=1560854136924
+2019-06-18 16:05:36.957 Info HttpServer: HTTP Response 200 to 172.28.0.6. Time: 1ms. http://emby:8096/web/strings/en-US.json?v=1560854136924
+2019-06-18 16:05:37.764 Info HttpServer: HTTP GET http://emby:8096/emby/system/info/public. UserAgent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-18 16:05:37.778 Info HttpServer: HTTP Response 200 to 172.28.0.6. Time: 14ms. http://emby:8096/emby/system/info/public
+2019-06-18 16:05:38.104 Info HttpServer: HTTP GET http://emby:8096/emby/Startup/Configuration. UserAgent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-18 16:05:38.104 Info HttpServer: HTTP GET http://emby:8096/emby/Localization/Options. UserAgent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-18 16:05:38.119 Info HttpServer: HTTP GET http://emby:8096/web/bower_components/emby-webcomponents/themes/light/theme.json?v=4.1.1.0&r=0. UserAgent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-18 16:05:38.120 Info HttpServer: HTTP Response 200 to 172.28.0.6. Time: 1ms. http://emby:8096/web/bower_components/emby-webcomponents/themes/light/theme.json?v=4.1.1.0&r=0
+2019-06-18 16:05:38.129 Info HttpServer: HTTP GET http://emby:8096/web/bower_components/emby-webcomponents/themes/logodark.png. UserAgent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-18 16:05:38.130 Info HttpServer: HTTP Response 200 to 172.28.0.6. Time: 1ms. http://emby:8096/web/bower_components/emby-webcomponents/themes/logodark.png
+2019-06-18 16:05:38.138 Info HttpServer: HTTP Response 200 to 172.28.0.6. Time: 34ms. http://emby:8096/emby/Startup/Configuration
+2019-06-18 16:05:38.146 Info HttpServer: HTTP Response 200 to 172.28.0.6. Time: 43ms. http://emby:8096/emby/Localization/Options
+2019-06-18 16:05:40.571 Info TaskManager: Check for plugin updates Completed after 0 minute(s) and 6 seconds
+2019-06-18 16:05:40.573 Info TaskManager: ExecuteQueuedTasks
+2019-06-18 16:06:11.739 Info HttpServer: HTTP GET http://emby:8096/. UserAgent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-18 16:06:11.739 Info HttpServer: HTTP Response 302 to 172.28.0.6. Time: 0ms. http://emby:8096/
+2019-06-18 16:06:12.094 Info HttpServer: HTTP GET http://emby:8096/web/bower_components/emby-webcomponents/strings/en-US.json?v=1560854172049. UserAgent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-18 16:06:12.094 Info HttpServer: HTTP GET http://emby:8096/web/strings/en-US.json?v=1560854172049. UserAgent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-18 16:06:12.094 Info HttpServer: HTTP Response 200 to 172.28.0.6. Time: 1ms. http://emby:8096/web/bower_components/emby-webcomponents/strings/en-US.json?v=1560854172049
+2019-06-18 16:06:12.095 Info HttpServer: HTTP Response 200 to 172.28.0.6. Time: 1ms. http://emby:8096/web/strings/en-US.json?v=1560854172049
+2019-06-18 16:06:12.412 Info HttpServer: HTTP GET http://emby:8096/emby/system/info/public. UserAgent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-18 16:06:12.414 Info HttpServer: HTTP Response 200 to 172.28.0.6. Time: 2ms. http://emby:8096/emby/system/info/public
+2019-06-18 16:06:12.677 Info HttpServer: HTTP GET http://emby:8096/emby/Startup/Configuration. UserAgent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-18 16:06:12.677 Info HttpServer: HTTP GET http://emby:8096/emby/Localization/Options. UserAgent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-18 16:06:12.678 Info HttpServer: HTTP Response 200 to 172.28.0.6. Time: 1ms. http://emby:8096/emby/Startup/Configuration
+2019-06-18 16:06:12.679 Info HttpServer: HTTP Response 200 to 172.28.0.6. Time: 2ms. http://emby:8096/emby/Localization/Options
+2019-06-18 16:06:12.707 Info HttpServer: HTTP GET http://emby:8096/web/bower_components/emby-webcomponents/themes/light/theme.json?v=4.1.1.0&r=0. UserAgent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-18 16:06:12.708 Info HttpServer: HTTP Response 304 to 172.28.0.6. Time: 0ms. http://emby:8096/web/bower_components/emby-webcomponents/themes/light/theme.json?v=4.1.1.0&r=0
+2019-06-18 16:06:12.731 Info HttpServer: HTTP GET http://emby:8096/web/bower_components/emby-webcomponents/themes/logodark.png. UserAgent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-18 16:06:12.732 Info HttpServer: HTTP Response 304 to 172.28.0.6. Time: 1ms. http://emby:8096/web/bower_components/emby-webcomponents/themes/logodark.png
+2019-06-18 16:06:24.110 Info HttpServer: HTTP GET http://emby:8096/emby/Startup/Configuration. UserAgent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-18 16:06:24.111 Info HttpServer: HTTP Response 200 to 172.28.0.6. Time: 1ms. http://emby:8096/emby/Startup/Configuration
+2019-06-18 16:06:24.175 Info HttpServer: HTTP POST http://emby:8096/emby/Startup/Configuration. UserAgent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-18 16:06:24.217 Info ServerConfigurationManager: Saving system configuration
+2019-06-18 16:06:24.218 Info HttpServer: HTTP Response 204 to 172.28.0.6. Time: 43ms. http://emby:8096/emby/Startup/Configuration
+2019-06-18 16:06:24.440 Info HttpServer: HTTP GET http://emby:8096/emby/Startup/User. UserAgent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-18 16:06:24.445 Info HttpServer: HTTP Response 200 to 172.28.0.6. Time: 5ms. http://emby:8096/emby/Startup/User
+2019-06-18 16:06:37.726 Info HttpServer: HTTP POST http://emby:8096/emby/Startup/User. UserAgent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-18 16:06:37.789 Info HttpServer: HTTP Response 200 to 172.28.0.6. Time: 62ms. http://emby:8096/emby/Startup/User
+2019-06-18 16:06:38.023 Info HttpServer: HTTP GET http://emby:8096/emby/Library/VirtualFolders. UserAgent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-18 16:06:38.037 Info HttpServer: HTTP Response 200 to 172.28.0.6. Time: 15ms. http://emby:8096/emby/Library/VirtualFolders
+2019-06-18 16:06:39.350 Info HttpServer: HTTP GET http://emby:8096/emby/Localization/countries. UserAgent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-18 16:06:39.350 Info HttpServer: HTTP GET http://emby:8096/emby/Localization/cultures. UserAgent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-18 16:06:39.359 Info HttpServer: HTTP Response 200 to 172.28.0.6. Time: 9ms. http://emby:8096/emby/Localization/countries
+2019-06-18 16:06:39.360 Info HttpServer: HTTP Response 200 to 172.28.0.6. Time: 10ms. http://emby:8096/emby/Localization/cultures
+2019-06-18 16:06:39.418 Info HttpServer: HTTP GET http://emby:8096/emby/Libraries/AvailableOptions?IsNewLibrary=true. UserAgent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-18 16:06:39.519 Info HttpServer: HTTP Response 200 to 172.28.0.6. Time: 102ms. http://emby:8096/emby/Libraries/AvailableOptions?IsNewLibrary=true
+2019-06-18 16:06:39.532 Info HttpServer: HTTP GET http://emby:8096/emby/Libraries/AvailableOptions?IsNewLibrary=true. UserAgent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-18 16:06:39.533 Info HttpServer: HTTP Response 200 to 172.28.0.6. Time: 2ms. http://emby:8096/emby/Libraries/AvailableOptions?IsNewLibrary=true
+2019-06-18 16:06:41.220 Info HttpServer: HTTP GET http://emby:8096/emby/Libraries/AvailableOptions?LibraryContentType=movies&IsNewLibrary=true. UserAgent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-18 16:06:41.221 Info HttpServer: HTTP Response 200 to 172.28.0.6. Time: 1ms. http://emby:8096/emby/Libraries/AvailableOptions?LibraryContentType=movies&IsNewLibrary=true
+2019-06-18 16:06:43.265 Info HttpServer: HTTP GET http://emby:8096/emby/System/Info/Public. UserAgent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-18 16:06:43.265 Info HttpServer: HTTP GET http://emby:8096/emby/Environment/DefaultDirectoryBrowser. UserAgent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-18 16:06:43.265 Info HttpServer: HTTP Response 200 to 172.28.0.6. Time: 0ms. http://emby:8096/emby/System/Info/Public
+2019-06-18 16:06:43.268 Info HttpServer: HTTP Response 200 to 172.28.0.6. Time: 4ms. http://emby:8096/emby/Environment/DefaultDirectoryBrowser
+2019-06-18 16:06:43.306 Info HttpServer: HTTP GET http://emby:8096/emby/Environment/Drives. UserAgent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-18 16:06:43.375 Info HttpServer: HTTP Response 200 to 172.28.0.6. Time: 68ms. http://emby:8096/emby/Environment/Drives
+2019-06-18 16:06:54.798 Info HttpServer: HTTP GET http://emby:8096/emby/Environment/DirectoryContents?includeDirectories=true&path=%2Fdata%2Fmovies. UserAgent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-18 16:06:54.798 Info HttpServer: HTTP GET http://emby:8096/emby/Environment/ParentPath?path=%2Fdata%2Fmovies. UserAgent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-18 16:06:54.800 Info HttpServer: HTTP Response 200 to 172.28.0.6. Time: 3ms. http://emby:8096/emby/Environment/ParentPath?path=%2Fdata%2Fmovies
+2019-06-18 16:06:54.804 Info HttpServer: HTTP Response 200 to 172.28.0.6. Time: 7ms. http://emby:8096/emby/Environment/DirectoryContents?includeDirectories=true&path=%2Fdata%2Fmovies
+2019-06-18 16:07:17.251 Info HttpServer: HTTP POST http://emby:8096/emby/Environment/ValidatePath. UserAgent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-18 16:07:17.254 Info HttpServer: HTTP Response 204 to 172.28.0.6. Time: 3ms. http://emby:8096/emby/Environment/ValidatePath
+2019-06-18 16:07:18.911 Info HttpServer: HTTP POST http://emby:8096/emby/Library/VirtualFolders?collectionType=movies&refreshLibrary=false&name=Movies. UserAgent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-18 16:07:19.995 Info HttpServer: HTTP Response 204 to 172.28.0.6. Time: 1084ms. http://emby:8096/emby/Library/VirtualFolders?collectionType=movies&refreshLibrary=false&name=Movies
+2019-06-18 16:07:20.169 Info HttpServer: HTTP GET http://emby:8096/emby/Library/VirtualFolders. UserAgent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-18 16:07:20.176 Info HttpServer: HTTP Response 200 to 172.28.0.6. Time: 7ms. http://emby:8096/emby/Library/VirtualFolders
+2019-06-18 16:07:21.026 Info HttpServer: HTTP GET http://emby:8096/emby/Localization/cultures. UserAgent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-18 16:07:21.027 Info HttpServer: HTTP GET http://emby:8096/emby/Localization/countries. UserAgent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-18 16:07:21.028 Info HttpServer: HTTP Response 200 to 172.28.0.6. Time: 1ms. http://emby:8096/emby/Localization/countries
+2019-06-18 16:07:21.028 Info HttpServer: HTTP Response 200 to 172.28.0.6. Time: 2ms. http://emby:8096/emby/Localization/cultures
+2019-06-18 16:07:21.067 Info HttpServer: HTTP GET http://emby:8096/emby/Libraries/AvailableOptions?IsNewLibrary=true. UserAgent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-18 16:07:21.068 Info HttpServer: HTTP Response 200 to 172.28.0.6. Time: 1ms. http://emby:8096/emby/Libraries/AvailableOptions?IsNewLibrary=true
+2019-06-18 16:07:21.081 Info HttpServer: HTTP GET http://emby:8096/emby/Libraries/AvailableOptions?IsNewLibrary=true. UserAgent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-18 16:07:21.083 Info HttpServer: HTTP Response 200 to 172.28.0.6. Time: 2ms. http://emby:8096/emby/Libraries/AvailableOptions?IsNewLibrary=true
+2019-06-18 16:07:23.723 Info HttpServer: HTTP GET http://emby:8096/emby/Libraries/AvailableOptions?LibraryContentType=music&IsNewLibrary=true. UserAgent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-18 16:07:23.725 Info HttpServer: HTTP Response 200 to 172.28.0.6. Time: 2ms. http://emby:8096/emby/Libraries/AvailableOptions?LibraryContentType=music&IsNewLibrary=true
+2019-06-18 16:07:25.103 Info HttpServer: HTTP GET http://emby:8096/emby/Libraries/AvailableOptions?LibraryContentType=tvshows&IsNewLibrary=true. UserAgent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-18 16:07:25.106 Info HttpServer: HTTP Response 200 to 172.28.0.6. Time: 2ms. http://emby:8096/emby/Libraries/AvailableOptions?LibraryContentType=tvshows&IsNewLibrary=true
+2019-06-18 16:07:26.901 Info HttpServer: HTTP GET http://emby:8096/emby/Environment/DefaultDirectoryBrowser. UserAgent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-18 16:07:26.902 Info HttpServer: HTTP Response 200 to 172.28.0.6. Time: 1ms. http://emby:8096/emby/Environment/DefaultDirectoryBrowser
+2019-06-18 16:07:26.935 Info HttpServer: HTTP GET http://emby:8096/emby/Environment/Drives. UserAgent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-18 16:07:26.936 Info HttpServer: HTTP Response 200 to 172.28.0.6. Time: 1ms. http://emby:8096/emby/Environment/Drives
+2019-06-18 16:07:34.016 Info HttpServer: HTTP GET http://emby:8096/emby/Environment/ParentPath?path=%2Fdata%2Ft. UserAgent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-18 16:07:34.016 Info HttpServer: HTTP GET http://emby:8096/emby/Environment/DirectoryContents?includeDirectories=true&path=%2Fdata%2Ft. UserAgent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-18 16:07:34.016 Info HttpServer: HTTP Response 200 to 172.28.0.6. Time: 1ms. http://emby:8096/emby/Environment/ParentPath?path=%2Fdata%2Ft
+2019-06-18 16:07:34.100 Info HttpServer: HTTP Response 404 to 172.28.0.6. Time: 84ms. http://emby:8096/emby/Environment/DirectoryContents?includeDirectories=true&path=%2Fdata%2Ft
+2019-06-18 16:07:40.394 Info HttpServer: HTTP GET http://emby:8096/emby/Environment/DirectoryContents?includeDirectories=true&path=%2Fdata%2Ftvshows. UserAgent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-18 16:07:40.394 Info HttpServer: HTTP GET http://emby:8096/emby/Environment/ParentPath?path=%2Fdata%2Ftvshows. UserAgent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-18 16:07:40.395 Info HttpServer: HTTP Response 200 to 172.28.0.6. Time: 1ms. http://emby:8096/emby/Environment/DirectoryContents?includeDirectories=true&path=%2Fdata%2Ftvshows
+2019-06-18 16:07:40.395 Info HttpServer: HTTP Response 200 to 172.28.0.6. Time: 0ms. http://emby:8096/emby/Environment/ParentPath?path=%2Fdata%2Ftvshows
+2019-06-18 16:07:40.752 Info HttpServer: HTTP POST http://emby:8096/emby/Environment/ValidatePath. UserAgent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-18 16:07:40.753 Info HttpServer: HTTP Response 204 to 172.28.0.6. Time: 1ms. http://emby:8096/emby/Environment/ValidatePath
+2019-06-18 16:07:41.673 Info HttpServer: HTTP POST http://emby:8096/emby/Library/VirtualFolders?collectionType=tvshows&refreshLibrary=false&name=TV%20shows. UserAgent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-18 16:07:42.676 Info HttpServer: HTTP Response 204 to 172.28.0.6. Time: 1003ms. http://emby:8096/emby/Library/VirtualFolders?collectionType=tvshows&refreshLibrary=false&name=TV%20shows
+2019-06-18 16:07:42.854 Info HttpServer: HTTP GET http://emby:8096/emby/Library/VirtualFolders. UserAgent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-18 16:07:42.855 Info HttpServer: HTTP Response 200 to 172.28.0.6. Time: 1ms. http://emby:8096/emby/Library/VirtualFolders
+2019-06-18 16:07:44.858 Info HttpServer: HTTP GET http://emby:8096/emby/Startup/Configuration. UserAgent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-18 16:07:44.858 Info HttpServer: HTTP GET http://emby:8096/emby/Localization/cultures. UserAgent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-18 16:07:44.858 Info HttpServer: HTTP GET http://emby:8096/emby/Localization/countries. UserAgent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-18 16:07:44.858 Info HttpServer: HTTP Response 200 to 172.28.0.6. Time: 0ms. http://emby:8096/emby/Startup/Configuration
+2019-06-18 16:07:44.859 Info HttpServer: HTTP Response 200 to 172.28.0.6. Time: 1ms. http://emby:8096/emby/Localization/countries
+2019-06-18 16:07:44.859 Info HttpServer: HTTP Response 200 to 172.28.0.6. Time: 2ms. http://emby:8096/emby/Localization/cultures
+2019-06-18 16:07:49.486 Info HttpServer: HTTP GET http://emby:8096/emby/Startup/Configuration. UserAgent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-18 16:07:49.487 Info HttpServer: HTTP Response 200 to 172.28.0.6. Time: 1ms. http://emby:8096/emby/Startup/Configuration
+2019-06-18 16:07:49.556 Info HttpServer: HTTP POST http://emby:8096/emby/Startup/Configuration. UserAgent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-18 16:07:49.557 Info ServerConfigurationManager: Saving system configuration
+2019-06-18 16:07:49.558 Info HttpServer: HTTP Response 204 to 172.28.0.6. Time: 2ms. http://emby:8096/emby/Startup/Configuration
+2019-06-18 16:07:55.186 Info HttpServer: HTTP POST http://emby:8096/emby/Startup/RemoteAccess. UserAgent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-18 16:07:55.189 Info ServerConfigurationManager: Saving system configuration
+2019-06-18 16:07:55.190 Info HttpServer: HTTP Response 204 to 172.28.0.6. Time: 4ms. http://emby:8096/emby/Startup/RemoteAccess
+2019-06-18 16:07:58.140 Info HttpServer: HTTP POST http://emby:8096/emby/Startup/Complete. UserAgent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-18 16:07:58.143 Info ServerConfigurationManager: Saving system configuration
+2019-06-18 16:07:58.143 Info HttpServer: HTTP Response 204 to 172.28.0.6. Time: 3ms. http://emby:8096/emby/Startup/Complete
+2019-06-18 16:07:58.150 Info TaskManager: Queueing task RefreshMediaLibraryTask
+2019-06-18 16:07:58.150 Info TaskManager: Executing Scan media library
+2019-06-18 16:07:58.161 Info App: Validating media library
+2019-06-18 16:07:58.502 Info HttpServer: HTTP GET http://emby:8096/web/strings/en-GB.json?v=1560854278466. UserAgent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-18 16:07:58.503 Info HttpServer: HTTP GET http://emby:8096/web/bower_components/emby-webcomponents/strings/en-GB.json?v=1560854278466. UserAgent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-18 16:07:58.503 Info HttpServer: HTTP Response 200 to 172.28.0.6. Time: 1ms. http://emby:8096/web/strings/en-GB.json?v=1560854278466
+2019-06-18 16:07:58.503 Info HttpServer: HTTP Response 200 to 172.28.0.6. Time: 1ms. http://emby:8096/web/bower_components/emby-webcomponents/strings/en-GB.json?v=1560854278466
+2019-06-18 16:07:58.668 Info TaskManager: Scan media library Completed after 0 minute(s) and 0 seconds
+2019-06-18 16:07:58.669 Info TaskManager: ExecuteQueuedTasks
+2019-06-18 16:07:58.689 Info LibraryMonitor: Watching directory /data/tvshows
+2019-06-18 16:07:58.689 Info LibraryMonitor: Watching directory /data/movies
+2019-06-18 16:07:58.853 Info HttpServer: HTTP GET http://emby:8096/emby/system/info/public. UserAgent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-18 16:07:58.853 Info HttpServer: HTTP Response 200 to 172.28.0.6. Time: 0ms. http://emby:8096/emby/system/info/public
+2019-06-18 16:07:58.987 Info HttpServer: HTTP GET http://emby:8096/emby/users/public. UserAgent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-18 16:07:58.987 Info HttpServer: HTTP GET http://emby:8096/emby/Branding/Configuration. UserAgent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-18 16:07:58.991 Info HttpServer: HTTP Response 200 to 172.28.0.6. Time: 4ms. http://emby:8096/emby/Branding/Configuration
+2019-06-18 16:07:58.997 Info HttpServer: HTTP GET http://emby:8096/web/bower_components/emby-webcomponents/themes/dark/theme.json?v=4.1.1.0&r=0. UserAgent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-18 16:07:58.997 Info HttpServer: HTTP Response 200 to 172.28.0.6. Time: 1ms. http://emby:8096/web/bower_components/emby-webcomponents/themes/dark/theme.json?v=4.1.1.0&r=0
+2019-06-18 16:07:59.011 Info HttpServer: HTTP GET http://emby:8096/web/bower_components/emby-webcomponents/themes/logowhite.png. UserAgent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-18 16:07:59.012 Info HttpServer: HTTP Response 200 to 172.28.0.6. Time: 0ms. http://emby:8096/web/bower_components/emby-webcomponents/themes/logowhite.png
+2019-06-18 16:07:59.041 Info HttpServer: HTTP Response 200 to 172.28.0.6. Time: 54ms. http://emby:8096/emby/users/public
+2019-06-18 16:07:59.056 Info HttpServer: HTTP GET http://emby:8096/web/css/images/logindefault.png. UserAgent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-18 16:07:59.057 Info HttpServer: HTTP Response 200 to 172.28.0.6. Time: 0ms. http://emby:8096/web/css/images/logindefault.png
+2019-06-18 16:08:02.905 Info HttpServer: HTTP POST http://emby:8096/emby/Users/authenticatebyname. UserAgent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-18 16:08:02.934 Error UserManager: Error authenticating with provider Default
+	*** Error Report ***
+	Version: 4.1.1.0
+	Command line: /app/emby/EmbyServer.dll -programdata /config -ffdetect /app/emby/ffdetect -ffmpeg /app/emby/ffmpeg -ffprobe /app/emby/ffprobe
+	Operating system: Unix 4.15.0.20
+	64-Bit OS: True
+	64-Bit Process: True
+	User Interactive: True
+	Runtime: file:///app/emby/System.Private.CoreLib.dll
+	Processor count: 8
+	Program data path: /config
+	Application directory: /app/emby
+	System.Exception: System.Exception: Invalid username or password
+	   at Emby.Server.Implementations.Library.DefaultAuthenticationProvider.Authenticate(String username, String password, User resolvedUser)
+	   at Emby.Server.Implementations.Library.UserManager.AuthenticateWithProvider(IAuthenticationProvider provider, String username, String password, User resolvedUser)
+	Source: Emby.Server.Implementations
+	TargetSite: System.Threading.Tasks.Task`1[MediaBrowser.Controller.Authentication.ProviderAuthenticationResult] Authenticate(System.String, System.String, MediaBrowser.Controller.Entities.User)
+	
+2019-06-18 16:08:02.939 Info HttpClient: POST https://connect.emby.media/service/user/authenticate
+2019-06-18 16:08:04.361 Info UserManager: Authentication request for shubham has been denied.
+2019-06-18 16:08:04.365 Warn HttpServer: AUTH-ERROR: 172.28.0.6 - Invalid user or password entered.
+2019-06-18 16:08:04.366 Error HttpServer: Invalid user or password entered.
+2019-06-18 16:08:04.366 Info HttpServer: HTTP Response 401 to 172.28.0.6. Time: 1461ms. http://emby:8096/emby/Users/authenticatebyname
+2019-06-18 16:08:11.789 Info HttpServer: HTTP POST http://emby:8096/emby/Users/authenticatebyname. UserAgent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-18 16:08:11.790 Error UserManager: Error authenticating with provider Default
+	*** Error Report ***
+	Version: 4.1.1.0
+	Command line: /app/emby/EmbyServer.dll -programdata /config -ffdetect /app/emby/ffdetect -ffmpeg /app/emby/ffmpeg -ffprobe /app/emby/ffprobe
+	Operating system: Unix 4.15.0.20
+	64-Bit OS: True
+	64-Bit Process: True
+	User Interactive: True
+	Runtime: file:///app/emby/System.Private.CoreLib.dll
+	Processor count: 8
+	Program data path: /config
+	Application directory: /app/emby
+	System.Exception: System.Exception: Invalid username or password
+	   at Emby.Server.Implementations.Library.DefaultAuthenticationProvider.Authenticate(String username, String password, User resolvedUser)
+	   at Emby.Server.Implementations.Library.UserManager.AuthenticateWithProvider(IAuthenticationProvider provider, String username, String password, User resolvedUser)
+	Source: Emby.Server.Implementations
+	TargetSite: System.Threading.Tasks.Task`1[MediaBrowser.Controller.Authentication.ProviderAuthenticationResult] Authenticate(System.String, System.String, MediaBrowser.Controller.Entities.User)
+	
+2019-06-18 16:08:11.790 Info HttpClient: POST https://connect.emby.media/service/user/authenticate
+2019-06-18 16:08:12.131 Info UserManager: Authentication request for shubham has been denied.
+2019-06-18 16:08:12.133 Warn HttpServer: AUTH-ERROR: 172.28.0.6 - Invalid user or password entered.
+2019-06-18 16:08:12.133 Error HttpServer: Invalid user or password entered.
+2019-06-18 16:08:12.133 Info HttpServer: HTTP Response 401 to 172.28.0.6. Time: 344ms. http://emby:8096/emby/Users/authenticatebyname
+2019-06-18 16:08:20.739 Info HttpServer: HTTP POST http://emby:8096/emby/Users/ForgotPassword. UserAgent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-18 16:08:20.768 Info HttpServer: HTTP Response 200 to 172.28.0.6. Time: 30ms. http://emby:8096/emby/Users/ForgotPassword
+2019-06-18 16:08:39.014 Info HttpServer: HTTP POST http://emby:8096/emby/Users/ForgotPassword. UserAgent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-18 16:08:39.016 Info HttpServer: HTTP Response 200 to 172.28.0.6. Time: 2ms. http://emby:8096/emby/Users/ForgotPassword
+2019-06-18 16:08:42.537 Info HttpServer: HTTP GET http://emby:8096/emby/users/public. UserAgent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-18 16:08:42.538 Info HttpServer: HTTP Response 200 to 172.28.0.6. Time: 1ms. http://emby:8096/emby/users/public
+2019-06-18 16:08:42.538 Info HttpServer: HTTP GET http://emby:8096/emby/Branding/Configuration. UserAgent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-18 16:08:42.539 Info HttpServer: HTTP Response 200 to 172.28.0.6. Time: 0ms. http://emby:8096/emby/Branding/Configuration
+2019-06-18 16:08:51.804 Info HttpServer: HTTP POST http://emby:8096/emby/Users/authenticatebyname. UserAgent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-18 16:08:51.805 Error UserManager: Error authenticating with provider Default
+	*** Error Report ***
+	Version: 4.1.1.0
+	Command line: /app/emby/EmbyServer.dll -programdata /config -ffdetect /app/emby/ffdetect -ffmpeg /app/emby/ffmpeg -ffprobe /app/emby/ffprobe
+	Operating system: Unix 4.15.0.20
+	64-Bit OS: True
+	64-Bit Process: True
+	User Interactive: True
+	Runtime: file:///app/emby/System.Private.CoreLib.dll
+	Processor count: 8
+	Program data path: /config
+	Application directory: /app/emby
+	System.Exception: System.Exception: Invalid username or password
+	   at Emby.Server.Implementations.Library.DefaultAuthenticationProvider.Authenticate(String username, String password, User resolvedUser)
+	   at Emby.Server.Implementations.Library.UserManager.AuthenticateWithProvider(IAuthenticationProvider provider, String username, String password, User resolvedUser)
+	Source: Emby.Server.Implementations
+	TargetSite: System.Threading.Tasks.Task`1[MediaBrowser.Controller.Authentication.ProviderAuthenticationResult] Authenticate(System.String, System.String, MediaBrowser.Controller.Entities.User)
+	
+2019-06-18 16:08:51.805 Info HttpClient: POST https://connect.emby.media/service/user/authenticate
+2019-06-18 16:08:52.104 Info UserManager: Authentication request for shubham has been denied.
+2019-06-18 16:08:52.105 Warn HttpServer: AUTH-ERROR: 172.28.0.6 - Invalid user or password entered.
+2019-06-18 16:08:52.105 Error HttpServer: Invalid user or password entered.
+2019-06-18 16:08:52.105 Info HttpServer: HTTP Response 401 to 172.28.0.6. Time: 301ms. http://emby:8096/emby/Users/authenticatebyname
+2019-06-18 16:09:01.615 Info HttpServer: HTTP POST http://emby:8096/emby/Users/authenticatebyname. UserAgent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-18 16:09:01.616 Error UserManager: Error authenticating with provider Default
+	*** Error Report ***
+	Version: 4.1.1.0
+	Command line: /app/emby/EmbyServer.dll -programdata /config -ffdetect /app/emby/ffdetect -ffmpeg /app/emby/ffmpeg -ffprobe /app/emby/ffprobe
+	Operating system: Unix 4.15.0.20
+	64-Bit OS: True
+	64-Bit Process: True
+	User Interactive: True
+	Runtime: file:///app/emby/System.Private.CoreLib.dll
+	Processor count: 8
+	Program data path: /config
+	Application directory: /app/emby
+	System.Exception: System.Exception: Invalid username or password
+	   at Emby.Server.Implementations.Library.DefaultAuthenticationProvider.Authenticate(String username, String password, User resolvedUser)
+	   at Emby.Server.Implementations.Library.UserManager.AuthenticateWithProvider(IAuthenticationProvider provider, String username, String password, User resolvedUser)
+	Source: Emby.Server.Implementations
+	TargetSite: System.Threading.Tasks.Task`1[MediaBrowser.Controller.Authentication.ProviderAuthenticationResult] Authenticate(System.String, System.String, MediaBrowser.Controller.Entities.User)
+	
+2019-06-18 16:09:01.616 Info HttpClient: POST https://connect.emby.media/service/user/authenticate
+2019-06-18 16:09:01.915 Info UserManager: Authentication request for shubham has been denied.
+2019-06-18 16:09:01.916 Warn HttpServer: AUTH-ERROR: 172.28.0.6 - Invalid user or password entered.
+2019-06-18 16:09:01.916 Error HttpServer: Invalid user or password entered.
+2019-06-18 16:09:01.917 Info HttpServer: HTTP Response 401 to 172.28.0.6. Time: 302ms. http://emby:8096/emby/Users/authenticatebyname
+2019-06-18 16:09:08.433 Info HttpServer: HTTP POST http://emby:8096/emby/Users/ForgotPassword. UserAgent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-18 16:09:08.435 Info HttpServer: HTTP Response 200 to 172.28.0.6. Time: 2ms. http://emby:8096/emby/Users/ForgotPassword
+2019-06-18 16:09:25.033 Info HttpServer: HTTP GET http://emby:8096/web/touchicon114.png. UserAgent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-18 16:09:25.033 Info HttpServer: HTTP Response 200 to 172.28.0.6. Time: 1ms. http://emby:8096/web/touchicon114.png
+2019-06-18 16:09:25.036 Info HttpServer: HTTP GET http://emby:8096/web/favicon.ico. UserAgent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-18 16:09:25.037 Info HttpServer: HTTP Response 200 to 172.28.0.6. Time: 1ms. http://emby:8096/web/favicon.ico
+2019-06-18 16:09:25.291 Info HttpServer: HTTP GET http://emby:8096/web/strings/en-GB.json?v=1560854365258. UserAgent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-18 16:09:25.291 Info HttpServer: HTTP GET http://emby:8096/web/bower_components/emby-webcomponents/strings/en-GB.json?v=1560854365258. UserAgent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-18 16:09:25.292 Info HttpServer: HTTP Response 200 to 172.28.0.6. Time: 1ms. http://emby:8096/web/bower_components/emby-webcomponents/strings/en-GB.json?v=1560854365258
+2019-06-18 16:09:25.292 Info HttpServer: HTTP Response 200 to 172.28.0.6. Time: 1ms. http://emby:8096/web/strings/en-GB.json?v=1560854365258
+2019-06-18 16:09:26.112 Info HttpServer: HTTP GET http://emby:8096/emby/system/info/public. UserAgent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-18 16:09:26.113 Info HttpServer: HTTP Response 200 to 172.28.0.6. Time: 1ms. http://emby:8096/emby/system/info/public
+2019-06-18 16:09:26.321 Info HttpServer: HTTP GET http://emby:8096/web/bower_components/emby-webcomponents/themes/dark/theme.json?v=4.1.1.0&r=0. UserAgent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-18 16:09:26.321 Info HttpServer: HTTP Response 200 to 172.28.0.6. Time: 1ms. http://emby:8096/web/bower_components/emby-webcomponents/themes/dark/theme.json?v=4.1.1.0&r=0
+2019-06-18 16:09:26.332 Info HttpServer: HTTP GET http://emby:8096/web/bower_components/emby-webcomponents/themes/logowhite.png. UserAgent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-18 16:09:26.332 Info HttpServer: HTTP Response 200 to 172.28.0.6. Time: 1ms. http://emby:8096/web/bower_components/emby-webcomponents/themes/logowhite.png
+2019-06-18 16:09:32.235 Info HttpServer: HTTP POST http://emby:8096/emby/Users/ForgotPassword/Pin. UserAgent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-18 16:09:32.244 Info HttpServer: HTTP Response 200 to 172.28.0.6. Time: 10ms. http://emby:8096/emby/Users/ForgotPassword/Pin
+2019-06-18 16:09:37.736 Info HttpServer: HTTP GET http://emby:8096/web/bower_components/emby-webcomponents/strings/en-GB.json?v=1560854377691. UserAgent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-18 16:09:37.737 Info HttpServer: HTTP GET http://emby:8096/web/strings/en-GB.json?v=1560854377691. UserAgent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-18 16:09:37.737 Info HttpServer: HTTP Response 200 to 172.28.0.6. Time: 1ms. http://emby:8096/web/bower_components/emby-webcomponents/strings/en-GB.json?v=1560854377691
+2019-06-18 16:09:37.737 Info HttpServer: HTTP Response 200 to 172.28.0.6. Time: 1ms. http://emby:8096/web/strings/en-GB.json?v=1560854377691
+2019-06-18 16:09:38.089 Info HttpServer: HTTP GET http://emby:8096/emby/system/info/public. UserAgent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-18 16:09:38.091 Info HttpServer: HTTP Response 200 to 172.28.0.6. Time: 1ms. http://emby:8096/emby/system/info/public
+2019-06-18 16:09:38.184 Info HttpServer: HTTP GET http://emby:8096/emby/users/public. UserAgent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-18 16:09:38.190 Info HttpServer: HTTP Response 200 to 172.28.0.6. Time: 6ms. http://emby:8096/emby/users/public
+2019-06-18 16:09:38.390 Info HttpServer: HTTP GET http://emby:8096/emby/Branding/Configuration. UserAgent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-18 16:09:38.390 Info HttpServer: HTTP GET http://emby:8096/emby/users/public. UserAgent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-18 16:09:38.391 Info HttpServer: HTTP Response 200 to 172.28.0.6. Time: 0ms. http://emby:8096/emby/Branding/Configuration
+2019-06-18 16:09:38.391 Info HttpServer: HTTP Response 200 to 172.28.0.6. Time: 1ms. http://emby:8096/emby/users/public
+2019-06-18 16:09:38.424 Info HttpServer: HTTP POST http://emby:8096/emby/Users/authenticatebyname. UserAgent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-18 16:09:38.424 Info HttpServer: HTTP GET http://emby:8096/web/bower_components/emby-webcomponents/themes/dark/theme.json?v=4.1.1.0&r=0. UserAgent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-18 16:09:38.424 Info HttpServer: HTTP Response 304 to 172.28.0.6. Time: 0ms. http://emby:8096/web/bower_components/emby-webcomponents/themes/dark/theme.json?v=4.1.1.0&r=0
+2019-06-18 16:09:38.427 Info UserManager: Authentication request for shubham has succeeded.
+2019-06-18 16:09:38.429 Info HttpServer: HTTP GET http://emby:8096/web/bower_components/emby-webcomponents/themes/logowhite.png. UserAgent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-18 16:09:38.430 Info HttpServer: HTTP Response 304 to 172.28.0.6. Time: 0ms. http://emby:8096/web/bower_components/emby-webcomponents/themes/logowhite.png
+2019-06-18 16:09:38.444 Info SessionManager: Creating new access token for user 1
+2019-06-18 16:09:38.512 Info HttpServer: HTTP Response 200 to 172.28.0.6. Time: 88ms. http://emby:8096/emby/Users/authenticatebyname
+2019-06-18 16:09:38.569 Info HttpServer: HTTP GET http://emby:8096/embywebsocket?deviceId=TW96aWxsYS81LjAgKFgxMTsgVWJ1bnR1OyBMaW51eCB4ODZfNjQ7IHJ2OjY3LjApIEdlY2tvLzIwMTAwMTAxIEZpcmVmb3gvNjcuMHwxNTYwODU0MzY1MjM4. UserAgent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-18 16:09:38.569 Error HttpServer: Could not find handler for /embywebsocket
+2019-06-18 16:09:38.583 Info HttpServer: HTTP Response 404 to 172.28.0.6. Time: 17ms. http://emby:8096/embywebsocket?deviceId=TW96aWxsYS81LjAgKFgxMTsgVWJ1bnR1OyBMaW51eCB4ODZfNjQ7IHJ2OjY3LjApIEdlY2tvLzIwMTAwMTAxIEZpcmVmb3gvNjcuMHwxNTYwODU0MzY1MjM4
+2019-06-18 16:09:38.597 Info HttpServer: HTTP GET http://emby:8096/emby/DisplayPreferences/usersettings?userId=79857ef019e24f1fac0847f02ab8fbb4&client=emby. UserAgent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-18 16:09:38.622 Info HttpServer: HTTP POST http://emby:8096/emby/Sessions/Capabilities/Full. UserAgent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-18 16:09:38.623 Info HttpServer: HTTP Response 200 to 172.28.0.6. Time: 26ms. http://emby:8096/emby/DisplayPreferences/usersettings?userId=79857ef019e24f1fac0847f02ab8fbb4&client=emby
+2019-06-18 16:09:38.761 Info HttpServer: HTTP Response 204 to 172.28.0.6. Time: 140ms. http://emby:8096/emby/Sessions/Capabilities/Full
+2019-06-18 16:09:38.960 Info HttpServer: HTTP GET http://emby:8096/emby/ScheduledTasks. UserAgent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-18 16:09:38.960 Info HttpServer: HTTP GET http://emby:8096/emby/Sessions?ActiveWithinSeconds=960. UserAgent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-18 16:09:38.960 Info HttpServer: HTTP GET http://emby:8096/emby/System/Info. UserAgent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-18 16:09:38.960 Info HttpServer: HTTP GET http://emby:8096/emby/System/ActivityLog/Entries?startIndex=0&limit=7&minDate=2019-06-17T10%3A39%3A38.869Z&hasUserId=true. UserAgent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-18 16:09:38.960 Info HttpServer: HTTP GET http://emby:8096/emby/System/ActivityLog/Entries?startIndex=0&limit=4&minDate=2019-06-11T10%3A39%3A38.870Z&hasUserId=false. UserAgent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-18 16:09:38.960 Info HttpServer: HTTP GET http://emby:8096/emby/News/Product?StartIndex=0&Limit=4. UserAgent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-18 16:09:38.975 Info HttpServer: HTTP Response 200 to 172.28.0.6. Time: 16ms. http://emby:8096/emby/Sessions?ActiveWithinSeconds=960
+2019-06-18 16:09:38.983 Info HttpServer: HTTP GET http://emby:8096/emby/LiveTv/Recordings?UserId=79857ef019e24f1fac0847f02ab8fbb4&IsInProgress=true&Fields=CanDelete%2CPrimaryImageAspectRatio&EnableTotalRecordCount=false&EnableImageTypes=Primary%2CThumb%2CBackdrop. UserAgent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-18 16:09:38.997 Info HttpServer: HTTP Response 200 to 172.28.0.6. Time: 37ms. http://emby:8096/emby/News/Product?StartIndex=0&Limit=4
+2019-06-18 16:09:39.000 Info HttpServer: HTTP GET http://emby:8096/web/bower_components/emby-webcomponents/themes/light/theme.json?v=4.1.1.0&r=0. UserAgent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-18 16:09:39.001 Info HttpServer: HTTP Response 200 to 172.28.0.6. Time: 2ms. http://emby:8096/web/bower_components/emby-webcomponents/themes/light/theme.json?v=4.1.1.0&r=0
+2019-06-18 16:09:39.002 Info HttpServer: HTTP GET http://emby:8096/emby/web/configurationpages?pageType=PluginConfiguration&EnableInMainMenu=true. UserAgent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-18 16:09:39.011 Info HttpServer: HTTP Response 200 to 172.28.0.6. Time: 52ms. http://emby:8096/emby/System/Info
+2019-06-18 16:09:39.017 Info HttpServer: HTTP GET http://emby:8096/web/bower_components/emby-webcomponents/themes/logodark.png. UserAgent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-18 16:09:39.017 Info HttpServer: HTTP Response 200 to 172.28.0.6. Time: 1ms. http://emby:8096/web/bower_components/emby-webcomponents/themes/logodark.png
+2019-06-18 16:09:39.046 Info HttpServer: HTTP Response 200 to 172.28.0.6. Time: 86ms. http://emby:8096/emby/System/ActivityLog/Entries?startIndex=0&limit=7&minDate=2019-06-17T10%3A39%3A38.869Z&hasUserId=true
+2019-06-18 16:09:39.046 Info HttpServer: HTTP Response 200 to 172.28.0.6. Time: 86ms. http://emby:8096/emby/System/ActivityLog/Entries?startIndex=0&limit=4&minDate=2019-06-11T10%3A39%3A38.870Z&hasUserId=false
+2019-06-18 16:09:39.050 Info HttpServer: HTTP Response 200 to 172.28.0.6. Time: 48ms. http://emby:8096/emby/web/configurationpages?pageType=PluginConfiguration&EnableInMainMenu=true
+2019-06-18 16:09:39.052 Info HttpServer: HTTP Response 200 to 172.28.0.6. Time: 93ms. http://emby:8096/emby/ScheduledTasks
+2019-06-18 16:09:39.121 Info HttpServer: HTTP Response 200 to 172.28.0.6. Time: 137ms. http://emby:8096/emby/LiveTv/Recordings?UserId=79857ef019e24f1fac0847f02ab8fbb4&IsInProgress=true&Fields=CanDelete%2CPrimaryImageAspectRatio&EnableTotalRecordCount=false&EnableImageTypes=Primary%2CThumb%2CBackdrop
+2019-06-18 16:09:39.126 Info HttpServer: HTTP GET http://emby:8096/web/css/images/logoblack.png. UserAgent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-18 16:09:39.127 Info HttpServer: HTTP Response 200 to 172.28.0.6. Time: 1ms. http://emby:8096/web/css/images/logoblack.png
+2019-06-18 16:09:44.656 Info HttpServer: HTTP GET http://emby:8096/emby/System/Endpoint. UserAgent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-18 16:09:44.667 Info HttpServer: HTTP Response 200 to 172.28.0.6. Time: 12ms. http://emby:8096/emby/System/Endpoint
+2019-06-18 16:10:05.510 Info HttpServer: Stopping HttpListener...
+2019-06-18 16:10:05.515 Info HttpServer: HttpListener stopped
+2019-06-18 16:10:05.515 Info App: Disposing CoreAppHost
+2019-06-18 16:10:05.516 Info App: Disposing LoopUtilEntryPoint
+2019-06-18 16:10:05.516 Info App: Disposing SyncNotificationEntryPoint
+2019-06-18 16:10:05.518 Info App: Disposing SyncManagerEntryPoint
+2019-06-18 16:10:05.518 Info App: Disposing ConnectEntryPoint
+2019-06-18 16:10:05.518 Info App: Disposing Notifications
+2019-06-18 16:10:05.520 Info App: Disposing EncodingManagerEntryPoint
+2019-06-18 16:10:05.520 Info App: Disposing MediaEncoderEntryPoint
+2019-06-18 16:10:05.520 Info App: Disposing RecordingNotifier
+2019-06-18 16:10:05.522 Info App: Disposing EntryPoint
+2019-06-18 16:10:05.522 Info App: Disposing ActivityLogEntryPoint
+2019-06-18 16:10:05.529 Info App: Disposing ChannelsEntryPoint
+2019-06-18 16:10:05.529 Info App: Disposing UserDataChangeNotifier
+2019-06-18 16:10:05.530 Info App: Disposing SystemEvents
+2019-06-18 16:10:05.530 Info App: Disposing StartupWizard
+2019-06-18 16:10:05.530 Info App: Disposing ServerEventNotifier
+2019-06-18 16:10:05.532 Info App: Disposing LibraryChangedNotifier
+2019-06-18 16:10:05.534 Info App: Disposing KeepServerAwake
+2019-06-18 16:10:05.534 Info App: Disposing AutomaticRestartEntryPoint
+2019-06-18 16:10:05.535 Info App: Disposing LibraryMonitorStartup
+2019-06-18 16:10:05.535 Info App: Disposing DeviceAccessEntryPoint
+2019-06-18 16:10:05.535 Info App: Disposing NewsEntryPoint
+2019-06-18 16:10:05.535 Info App: Disposing UdpServerEntryPoint
+2019-06-18 16:10:05.535 Info App: Disposing ApiEntryPoint
+2019-06-18 16:10:05.535 Info App: Disposing EntryPoint
+2019-06-18 16:10:05.536 Info App: Disposing DlnaEntryPoint
+2019-06-18 16:10:05.537 Info Dlna: Disposing PlayToManager
+2019-06-18 16:10:05.537 Info App: Disposing ExternalPortForwarding
+2019-06-18 16:10:05.538 Info App: Disposing IntrosEntryPoint
+2019-06-18 16:10:05.538 Info App: Disposing PluginSecurityManager
+2019-06-18 16:10:05.538 Info App: Disposing StrmMounter
+2019-06-18 16:10:05.538 Info App: Disposing DvdMounter
+2019-06-18 16:10:05.538 Info App: Disposing BlurayMounter
+2019-06-18 16:10:05.538 Info App: Disposing OpenSubtitleDownloader
+2019-06-18 16:10:05.539 Info App: Disposing HauppaugeTunerWindows
+2019-06-18 16:10:05.539 Info App: Disposing EmbyTV
+2019-06-18 16:10:05.539 Info App: Disposing SessionWebSocketListener
+2019-06-18 16:10:05.540 Info App: Disposing ScheduledTasksWebSocketListener
+2019-06-18 16:10:05.541 Info App: Disposing SessionInfoWebSocketListener
+2019-06-18 16:10:05.542 Info App: Disposing ActivityLogWebSocketListener
+2019-06-18 16:10:05.543 Info App: Disposing EncodingManager
+2019-06-18 16:10:05.544 Info App: Disposing ActivityRepository
+2019-06-18 16:10:05.548 Info App: Disposing MediaEncoder
+2019-06-18 16:10:05.550 Info App: Disposing SsdpDevicePublisher

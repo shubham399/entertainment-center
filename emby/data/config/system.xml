@@ -4,21 +4,21 @@
   <EnableAutoUpdate>true</EnableAutoUpdate>
   <LogFileRetentionDays>3</LogFileRetentionDays>
   <RunAtStartup>true</RunAtStartup>
-  <IsStartupWizardCompleted>false</IsStartupWizardCompleted>
+  <IsStartupWizardCompleted>true</IsStartupWizardCompleted>
   <EnableUPnP>true</EnableUPnP>
   <PublicPort>8096</PublicPort>
   <PublicHttpsPort>8920</PublicHttpsPort>
   <HttpServerPortNumber>8096</HttpServerPortNumber>
   <HttpsPortNumber>8920</HttpsPortNumber>
   <EnableHttps>false</EnableHttps>
-  <SubtitlePermissionsUpgraded>false</SubtitlePermissionsUpgraded>
+  <SubtitlePermissionsUpgraded>true</SubtitlePermissionsUpgraded>
   <IsPortAuthorized>true</IsPortAuthorized>
   <AutoRunWebApp>true</AutoRunWebApp>
   <EnableRemoteAccess>true</EnableRemoteAccess>
   <LogAllQueryTimes>false</LogAllQueryTimes>
   <EnableCaseSensitiveItemIds>true</EnableCaseSensitiveItemIds>
   <PreferredMetadataLanguage>en</PreferredMetadataLanguage>
-  <MetadataCountryCode>US</MetadataCountryCode>
+  <MetadataCountryCode>IN</MetadataCountryCode>
   <SortReplaceCharacters>
     <string>.</string>
     <string>+</string>
@@ -41,8 +41,8 @@
   <EnableDashboardResponseCaching>true</EnableDashboardResponseCaching>
   <ImageSavingConvention>Compatible</ImageSavingConvention>
   <EnableAutomaticRestart>true</EnableAutomaticRestart>
-  <SkipDeserializationForBasicTypes>false</SkipDeserializationForBasicTypes>
-  <UICulture>en-us</UICulture>
+  <SkipDeserializationForBasicTypes>true</SkipDeserializationForBasicTypes>
+  <UICulture>en-GB</UICulture>
   <SaveMetadataHidden>false</SaveMetadataHidden>
   <RemoteClientBitrateLimit>0</RemoteClientBitrateLimit>
   <SchemaVersion>0</SchemaVersion>

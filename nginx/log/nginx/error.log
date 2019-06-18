@@ -1,0 +1,2 @@
+2019/06/18 11:21:11 [crit] 287#287: *1 connect() to 172.28.0.2:8096 failed (22: Invalid argument) while connecting to upstream, client: 172.28.0.1, server: _, request: "GET /emby HTTP/1.1", upstream: "http://172.28.0.2:8096/", host: "localhost"
+2019/06/18 11:21:23 [crit] 287#287: *1 connect() to 172.28.0.3:8080 failed (22: Invalid argument) while connecting to upstream, client: 172.28.0.1, server: _, request: "GET /qbit HTTP/1.1", upstream: "http://172.28.0.3:8080/", host: "localhost"

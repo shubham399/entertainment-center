@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<LibraryOptions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EnableArchiveMediaFiles>false</EnableArchiveMediaFiles>
+  <EnablePhotos>true</EnablePhotos>
+  <EnableRealtimeMonitor>true</EnableRealtimeMonitor>
+  <EnableChapterImageExtraction>false</EnableChapterImageExtraction>
+  <ExtractChapterImagesDuringLibraryScan>false</ExtractChapterImagesDuringLibraryScan>
+  <DownloadImagesInAdvance>false</DownloadImagesInAdvance>
+  <PathInfos>
+    <MediaPathInfo>
+      <Path>/data/movies</Path>
+    </MediaPathInfo>
+  </PathInfos>
+  <SaveLocalMetadata>false</SaveLocalMetadata>
+  <SaveLocalThumbnailSets>false</SaveLocalThumbnailSets>
+  <ImportMissingEpisodes>false</ImportMissingEpisodes>
+  <EnableAutomaticSeriesGrouping>true</EnableAutomaticSeriesGrouping>
+  <EnableEmbeddedTitles>false</EnableEmbeddedTitles>
+  <EnableAudioResume>false</EnableAudioResume>
+  <AutomaticRefreshIntervalDays>0</AutomaticRefreshIntervalDays>
+  <PreferredMetadataLanguage />
+  <MetadataCountryCode />
+  <SeasonZeroDisplayName>Specials</SeasonZeroDisplayName>
+  <MetadataSavers />
+  <DisabledLocalMetadataReaders />
+  <LocalMetadataReaderOrder>
+    <string>Nfo</string>
+  </LocalMetadataReaderOrder>
+  <DisabledSubtitleFetchers />
+  <SubtitleFetcherOrder>
+    <string>Open Subtitles</string>
+  </SubtitleFetcherOrder>
+  <SkipSubtitlesIfEmbeddedSubtitlesPresent>false</SkipSubtitlesIfEmbeddedSubtitlesPresent>
+  <SkipSubtitlesIfAudioTrackMatches>false</SkipSubtitlesIfAudioTrackMatches>
+  <SubtitleDownloadLanguages />
+  <RequirePerfectSubtitleMatch>true</RequirePerfectSubtitleMatch>
+  <SaveSubtitlesWithMedia>true</SaveSubtitlesWithMedia>
+  <ForcedSubtitlesOnly>false</ForcedSubtitlesOnly>
+  <TypeOptions>
+    <TypeOptions>
+      <Type>Movie</Type>
+      <MetadataFetchers>
+        <string>TheMovieDb</string>
+      </MetadataFetchers>
+      <MetadataFetcherOrder>
+        <string>TheMovieDb</string>
+        <string>The Open Movie Database</string>
+      </MetadataFetcherOrder>
+      <ImageFetchers>
+        <string>TheMovieDb</string>
+        <string>FanArt</string>
+        <string>Screen Grabber</string>
+      </ImageFetchers>
+      <ImageFetcherOrder>
+        <string>TheMovieDb</string>
+        <string>FanArt</string>
+        <string>The Open Movie Database</string>
+        <string>Screen Grabber</string>
+      </ImageFetcherOrder>
+      <ImageOptions />
+    </TypeOptions>
+  </TypeOptions>
+  <CollapseSingleItemFolders>true</CollapseSingleItemFolders>
+  <MinResumePct>5</MinResumePct>
+  <MaxResumePct>90</MaxResumePct>
+  <MinResumeDurationSeconds>180</MinResumeDurationSeconds>
+  <ThumbnailImagesIntervalSeconds>10</ThumbnailImagesIntervalSeconds>
+</LibraryOptions>

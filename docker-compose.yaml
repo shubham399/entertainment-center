@@ -13,8 +13,8 @@ services:
       - ./sonnar/data:/config
       - ./sonnar/tv:/tv
       - ./downloads:/downloads
-    ports:
-      - 8989:8989
+    # ports:
+    #   - 8989:8989
     restart: unless-stopped
     networks:
       - webnet
@@ -29,11 +29,11 @@ services:
       - TZ=Asia/Kolkata
       - UMASK_SET=022 #opTorrentRssIndexertional
     volumes:
-      - ./raddar/data:/config
-      - ./raddar/movies:/movies
+      - ./radarr/data:/config
+      - ./radarr/movies:/movies
       - ./downloads:/downloads
-    ports:
-      - 8990:7878
+    # ports:
+    #   - 8990:7878
     restart: unless-stopped
     networks:
       - webnet
@@ -49,14 +49,15 @@ services:
     volumes:
       - ./emby/data:/config
       - ./sonnar/tv.:/data/tvshows
-      - ./raddar/movies:/data/movies
+      - ./radarr/movies:/data/movies
       - ./emby/transcoding:/transcode #optional
     ports:
-      - 8096:8096
-      - 8920:8920 #optional
+      - 8096:8096 # need to be exposed for Emby App.
     devices:
       - /dev/dri:/dev/dri #optional
     restart: unless-stopped
+    networks:
+      - webnet
 # Qbittorrent
   qbittorrent:
     image: linuxserver/qbittorrent
@@ -65,7 +66,7 @@ services:
       - PUID=1000
       - PGID=1000
       - TZ=Asia/Kolkata
-      - UMASK_SET=022
+      - UMASK_SET=022sonarr
       - WEBUI_PORT=8080
     volumes:
       - ./qbittorrent:/config
@@ -77,5 +78,25 @@ services:
     restart: unless-stopped
     networks:
       - webnet
+  nginx:
+    image: linuxserver/nginx
+    container_name: nginx
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Asia/Kolkata
+    volumes:
+      - ./nginx:/config
+    ports:
+      - 80:80
+      - 443:443
+    restart: unless-stopped
+    depends_on:
+      - "qbittorrent"
+      - "emby"
+      - "sonarr"
+    networks:
+      - webnet
+
 networks:
   webnet:

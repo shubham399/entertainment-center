@@ -611,3 +611,161 @@
 19-6-18 15:18:50.7|Info|OwinHostController|Listening on the following URLs:
 19-6-18 15:18:50.7|Info|OwinHostController|  http://*:8989/
 19-6-18 15:18:50.9|Info|NancyBootstrapper|Starting Web Server
+19-6-18 15:29:06.7|Info|Bootstrap|Starting Sonarr - /opt/NzbDrone/NzbDrone.exe - Version 2.0.0.5322
+19-6-18 15:29:07.3|Info|AppFolderInfo|Data directory is being overridden to [/config]
+19-6-18 15:29:07.5|Info|Router|Application mode: Interactive
+19-6-18 15:29:07.7|Info|MigrationLogger|*** Migrating data source=/config/nzbdrone.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+19-6-18 15:29:07.8|Info|MigrationLogger|*** Migrating data source=/config/logs.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+19-6-18 15:29:07.9|Info|OwinHostController|Listening on the following URLs:
+19-6-18 15:29:07.9|Info|OwinHostController|  http://*:8989/
+19-6-18 15:29:08.0|Info|NancyBootstrapper|Starting Web Server
+19-6-18 15:29:38.9|Info|RssSyncService|Starting RSS Sync
+19-6-18 15:29:42.4|Info|DownloadDecisionMaker|Processing 200 releases
+19-6-18 15:29:42.8|Info|RssSyncService|RSS Sync Completed. Reports found: 200, Reports grabbed: 0
+19-6-18 15:36:22.5|Info|Bootstrap|Starting Sonarr - /opt/NzbDrone/NzbDrone.exe - Version 2.0.0.5322
+19-6-18 15:36:23.1|Info|AppFolderInfo|Data directory is being overridden to [/config]
+19-6-18 15:36:23.2|Info|Router|Application mode: Interactive
+19-6-18 15:36:23.3|Info|MigrationLogger|*** Migrating data source=/config/nzbdrone.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+19-6-18 15:36:23.5|Info|MigrationLogger|*** Migrating data source=/config/logs.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+19-6-18 15:36:23.6|Info|OwinHostController|Listening on the following URLs:
+19-6-18 15:36:23.6|Info|OwinHostController|  http://*:8989/
+19-6-18 15:36:23.7|Info|NancyBootstrapper|Starting Web Server
+19-6-18 15:42:19.7|Info|Bootstrap|Starting Sonarr - /opt/NzbDrone/NzbDrone.exe - Version 2.0.0.5322
+19-6-18 15:42:20.3|Info|AppFolderInfo|Data directory is being overridden to [/config]
+19-6-18 15:42:20.5|Info|Router|Application mode: Interactive
+19-6-18 15:42:20.7|Info|MigrationLogger|*** Migrating data source=/config/nzbdrone.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+19-6-18 15:42:20.8|Info|MigrationLogger|*** Migrating data source=/config/logs.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+19-6-18 15:42:20.9|Info|OwinHostController|Listening on the following URLs:
+19-6-18 15:42:20.9|Info|OwinHostController|  http://*:8989/
+19-6-18 15:42:21.0|Info|NancyBootstrapper|Starting Web Server
+19-6-18 15:44:37.4|Info|Bootstrap|Starting Sonarr - /opt/NzbDrone/NzbDrone.exe - Version 2.0.0.5322
+19-6-18 15:44:38.0|Info|AppFolderInfo|Data directory is being overridden to [/config]
+19-6-18 15:44:38.1|Info|Router|Application mode: Interactive
+19-6-18 15:44:38.3|Info|MigrationLogger|*** Migrating data source=/config/nzbdrone.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+19-6-18 15:44:38.5|Info|MigrationLogger|*** Migrating data source=/config/logs.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+19-6-18 15:44:38.5|Info|OwinHostController|Listening on the following URLs:
+19-6-18 15:44:38.5|Info|OwinHostController|  http://*:8989/
+19-6-18 15:44:38.7|Info|NancyBootstrapper|Starting Web Server
+19-6-18 15:45:09.8|Info|RssSyncService|Starting RSS Sync
+19-6-18 15:45:14.6|Info|DownloadDecisionMaker|Processing 200 releases
+19-6-18 15:45:15.2|Info|RssSyncService|RSS Sync Completed. Reports found: 200, Reports grabbed: 0
+19-6-18 15:45:56.1|Info|Bootstrap|Starting Sonarr - /opt/NzbDrone/NzbDrone.exe - Version 2.0.0.5322
+19-6-18 15:45:56.8|Info|AppFolderInfo|Data directory is being overridden to [/config]
+19-6-18 15:45:56.9|Info|Router|Application mode: Interactive
+19-6-18 15:45:57.1|Info|MigrationLogger|*** Migrating data source=/config/nzbdrone.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+19-6-18 15:45:57.3|Info|MigrationLogger|*** Migrating data source=/config/logs.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+19-6-18 15:45:57.3|Info|OwinHostController|Listening on the following URLs:
+19-6-18 15:45:57.3|Info|OwinHostController|  http://*:8989/
+19-6-18 15:45:57.5|Info|NancyBootstrapper|Starting Web Server
+19-6-18 15:47:38.1|Info|Bootstrap|Starting Sonarr - /opt/NzbDrone/NzbDrone.exe - Version 2.0.0.5322
+19-6-18 15:47:38.7|Info|AppFolderInfo|Data directory is being overridden to [/config]
+19-6-18 15:47:38.8|Info|Router|Application mode: Interactive
+19-6-18 15:47:39.0|Info|MigrationLogger|*** Migrating data source=/config/nzbdrone.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+19-6-18 15:47:39.2|Info|MigrationLogger|*** Migrating data source=/config/logs.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+19-6-18 15:47:39.2|Info|OwinHostController|Listening on the following URLs:
+19-6-18 15:47:39.2|Info|OwinHostController|  http://*:8989/
+19-6-18 15:47:39.3|Info|NancyBootstrapper|Starting Web Server
+19-6-18 15:49:23.3|Info|Bootstrap|Starting Sonarr - /opt/NzbDrone/NzbDrone.exe - Version 2.0.0.5322
+19-6-18 15:49:24.0|Info|AppFolderInfo|Data directory is being overridden to [/config]
+19-6-18 15:49:24.1|Info|Router|Application mode: Interactive
+19-6-18 15:49:24.4|Info|MigrationLogger|*** Migrating data source=/config/nzbdrone.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+19-6-18 15:49:24.5|Info|MigrationLogger|*** Migrating data source=/config/logs.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+19-6-18 15:49:24.6|Info|OwinHostController|Listening on the following URLs:
+19-6-18 15:49:24.6|Info|OwinHostController|  http://*:8989/
+19-6-18 15:49:24.7|Info|NancyBootstrapper|Starting Web Server
+19-6-18 15:50:54.4|Info|Bootstrap|Starting Sonarr - /opt/NzbDrone/NzbDrone.exe - Version 2.0.0.5322
+19-6-18 15:50:55.2|Info|AppFolderInfo|Data directory is being overridden to [/config]
+19-6-18 15:50:55.3|Info|Router|Application mode: Interactive
+19-6-18 15:50:55.5|Info|MigrationLogger|*** Migrating data source=/config/nzbdrone.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+19-6-18 15:50:55.7|Info|MigrationLogger|*** Migrating data source=/config/logs.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+19-6-18 15:50:55.7|Info|OwinHostController|Listening on the following URLs:
+19-6-18 15:50:55.7|Info|OwinHostController|  http://*:8989/
+19-6-18 15:50:55.8|Info|NancyBootstrapper|Starting Web Server
+19-6-18 15:51:56.2|Info|Bootstrap|Starting Sonarr - /opt/NzbDrone/NzbDrone.exe - Version 2.0.0.5322
+19-6-18 15:51:56.8|Info|AppFolderInfo|Data directory is being overridden to [/config]
+19-6-18 15:51:57.0|Info|Router|Application mode: Interactive
+19-6-18 15:51:57.2|Info|MigrationLogger|*** Migrating data source=/config/nzbdrone.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+19-6-18 15:51:57.4|Info|MigrationLogger|*** Migrating data source=/config/logs.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+19-6-18 15:51:57.4|Info|OwinHostController|Listening on the following URLs:
+19-6-18 15:51:57.4|Info|OwinHostController|  http://*:8989/
+19-6-18 15:51:57.5|Info|NancyBootstrapper|Starting Web Server
+19-6-18 15:52:56.8|Info|Bootstrap|Starting Sonarr - /opt/NzbDrone/NzbDrone.exe - Version 2.0.0.5322
+19-6-18 15:52:57.4|Info|AppFolderInfo|Data directory is being overridden to [/config]
+19-6-18 15:52:57.6|Info|Router|Application mode: Interactive
+19-6-18 15:52:57.8|Info|MigrationLogger|*** Migrating data source=/config/nzbdrone.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+19-6-18 15:52:57.9|Info|MigrationLogger|*** Migrating data source=/config/logs.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+19-6-18 15:52:57.9|Info|OwinHostController|Listening on the following URLs:
+19-6-18 15:52:57.9|Info|OwinHostController|  http://*:8989/
+19-6-18 15:52:58.1|Info|NancyBootstrapper|Starting Web Server
+19-6-18 15:54:36.5|Info|Bootstrap|Starting Sonarr - /opt/NzbDrone/NzbDrone.exe - Version 2.0.0.5322
+19-6-18 15:54:37.2|Info|AppFolderInfo|Data directory is being overridden to [/config]
+19-6-18 15:54:37.4|Info|Router|Application mode: Interactive
+19-6-18 15:54:37.6|Info|MigrationLogger|*** Migrating data source=/config/nzbdrone.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+19-6-18 15:54:37.8|Info|MigrationLogger|*** Migrating data source=/config/logs.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+19-6-18 15:54:37.8|Info|OwinHostController|Listening on the following URLs:
+19-6-18 15:54:37.8|Info|OwinHostController|  http://*:8989/
+19-6-18 15:54:38.0|Info|NancyBootstrapper|Starting Web Server
+19-6-18 15:57:59.0|Info|Bootstrap|Starting Sonarr - /opt/NzbDrone/NzbDrone.exe - Version 2.0.0.5322
+19-6-18 15:57:59.6|Info|AppFolderInfo|Data directory is being overridden to [/config]
+19-6-18 15:57:59.8|Info|Router|Application mode: Interactive
+19-6-18 15:57:59.9|Info|MigrationLogger|*** Migrating data source=/config/nzbdrone.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+19-6-18 15:58:00.1|Info|MigrationLogger|*** Migrating data source=/config/logs.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+19-6-18 15:58:00.1|Info|OwinHostController|Listening on the following URLs:
+19-6-18 15:58:00.1|Info|OwinHostController|  http://*:8989/
+19-6-18 15:58:00.3|Info|NancyBootstrapper|Starting Web Server
+19-6-18 15:58:57.7|Info|Bootstrap|Starting Sonarr - /opt/NzbDrone/NzbDrone.exe - Version 2.0.0.5322
+19-6-18 15:58:58.3|Info|AppFolderInfo|Data directory is being overridden to [/config]
+19-6-18 15:58:58.4|Info|Router|Application mode: Interactive
+19-6-18 15:58:58.6|Info|MigrationLogger|*** Migrating data source=/config/nzbdrone.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+19-6-18 15:58:58.8|Info|MigrationLogger|*** Migrating data source=/config/logs.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+19-6-18 15:58:58.8|Info|OwinHostController|Listening on the following URLs:
+19-6-18 15:58:58.8|Info|OwinHostController|  http://*:8989/
+19-6-18 15:58:59.0|Info|NancyBootstrapper|Starting Web Server
+19-6-18 16:00:30.1|Info|RssSyncService|Starting RSS Sync
+19-6-18 16:00:33.9|Info|DownloadDecisionMaker|Processing 200 releases
+19-6-18 16:00:34.3|Info|RssSyncService|RSS Sync Completed. Reports found: 200, Reports grabbed: 0
+19-6-18 16:01:07.4|Info|Bootstrap|Starting Sonarr - /opt/NzbDrone/NzbDrone.exe - Version 2.0.0.5322
+19-6-18 16:01:08.1|Info|AppFolderInfo|Data directory is being overridden to [/config]
+19-6-18 16:01:08.2|Info|Router|Application mode: Interactive
+19-6-18 16:01:08.4|Info|MigrationLogger|*** Migrating data source=/config/nzbdrone.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+19-6-18 16:01:08.6|Info|MigrationLogger|*** Migrating data source=/config/logs.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+19-6-18 16:01:08.6|Info|OwinHostController|Listening on the following URLs:
+19-6-18 16:01:08.6|Info|OwinHostController|  http://*:8989/sonarr/
+19-6-18 16:01:08.6|Info|OwinHostController|  http://*:8989/
+19-6-18 16:01:08.7|Info|NancyBootstrapper|Starting Web Server
+19-6-18 16:02:48.0|Info|Bootstrap|Starting Sonarr - /opt/NzbDrone/NzbDrone.exe - Version 2.0.0.5322
+19-6-18 16:02:48.6|Info|AppFolderInfo|Data directory is being overridden to [/config]
+19-6-18 16:02:48.8|Info|Router|Application mode: Interactive
+19-6-18 16:02:49.0|Info|MigrationLogger|*** Migrating data source=/config/nzbdrone.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+19-6-18 16:02:49.2|Info|MigrationLogger|*** Migrating data source=/config/logs.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+19-6-18 16:02:49.2|Info|OwinHostController|Listening on the following URLs:
+19-6-18 16:02:49.2|Info|OwinHostController|  http://*:8989/sonarr/
+19-6-18 16:02:49.2|Info|OwinHostController|  http://*:8989/
+19-6-18 16:02:49.3|Info|NancyBootstrapper|Starting Web Server
+19-6-18 16:03:44.0|Info|Bootstrap|Starting Sonarr - /opt/NzbDrone/NzbDrone.exe - Version 2.0.0.5322
+19-6-18 16:03:44.7|Info|AppFolderInfo|Data directory is being overridden to [/config]
+19-6-18 16:03:44.8|Info|Router|Application mode: Interactive
+19-6-18 16:03:45.0|Info|MigrationLogger|*** Migrating data source=/config/nzbdrone.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+19-6-18 16:03:45.2|Info|MigrationLogger|*** Migrating data source=/config/logs.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+19-6-18 16:03:45.2|Info|OwinHostController|Listening on the following URLs:
+19-6-18 16:03:45.2|Info|OwinHostController|  http://*:8989/sonarr/
+19-6-18 16:03:45.2|Info|OwinHostController|  http://*:8989/
+19-6-18 16:03:45.3|Info|NancyBootstrapper|Starting Web Server
+19-6-18 16:04:40.9|Info|Bootstrap|Starting Sonarr - /opt/NzbDrone/NzbDrone.exe - Version 2.0.0.5322
+19-6-18 16:04:41.5|Info|AppFolderInfo|Data directory is being overridden to [/config]
+19-6-18 16:04:41.7|Info|Router|Application mode: Interactive
+19-6-18 16:04:41.9|Info|MigrationLogger|*** Migrating data source=/config/nzbdrone.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+19-6-18 16:04:42.1|Info|MigrationLogger|*** Migrating data source=/config/logs.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+19-6-18 16:04:42.1|Info|OwinHostController|Listening on the following URLs:
+19-6-18 16:04:42.1|Info|OwinHostController|  http://*:8989/sonarr/
+19-6-18 16:04:42.1|Info|OwinHostController|  http://*:8989/
+19-6-18 16:04:42.2|Info|NancyBootstrapper|Starting Web Server
+19-6-18 16:05:31.4|Info|Bootstrap|Starting Sonarr - /opt/NzbDrone/NzbDrone.exe - Version 2.0.0.5322
+19-6-18 16:05:32.1|Info|AppFolderInfo|Data directory is being overridden to [/config]
+19-6-18 16:05:32.3|Info|Router|Application mode: Interactive
+19-6-18 16:05:32.5|Info|MigrationLogger|*** Migrating data source=/config/nzbdrone.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+19-6-18 16:05:32.6|Info|MigrationLogger|*** Migrating data source=/config/logs.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+19-6-18 16:05:32.7|Info|OwinHostController|Listening on the following URLs:
+19-6-18 16:05:32.7|Info|OwinHostController|  http://*:8989/sonarr/
+19-6-18 16:05:32.7|Info|OwinHostController|  http://*:8989/
+19-6-18 16:05:32.8|Info|NancyBootstrapper|Starting Web Server
