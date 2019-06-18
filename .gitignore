@@ -13,3 +13,5 @@ radarr/data/nzb*
 sonnar/data/log*
 sonnar/data/nzb*
 qbittorrent/*
+!radarr/data/nzbdrone.db
+!sonnar/data/nzbdrone.db
