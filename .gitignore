@@ -14,3 +14,4 @@ radarr/data/log*
 radarr/data/nzb*
 sonnar/data/log*
 sonnar/data/nzb*
+qbittorrent/qBittorrent/rss/*
