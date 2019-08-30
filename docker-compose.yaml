@@ -95,6 +95,7 @@ services:
       - "qbittorrent"
       - "emby"
       - "sonarr"
+      - "radarr"
     networks:
       - webnet
 
