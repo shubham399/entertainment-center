@@ -1,0 +1,23 @@
+{
+  "Port": 9117,
+  "AllowExternal": true,
+  "APIKey": "vgh372aqbnxrxjm60ybg3r5zho5klr30",
+  "AdminPassword": null,
+  "InstanceId": "mcxr7vnhna3ze0u1uck6zj5tflscdipsnh8gj8p8q3uigvwbyrb0tdmeyi6a1hkq",
+  "BlackholeDir": "",
+  "UpdateDisabled": false,
+  "UpdatePrerelease": false,
+  "BasePathOverride": "/jackett",
+  "CacheEnabled": true,
+  "CacheTtl": 2100,
+  "CacheMaxResultsPerIndexer": 1000,
+  "FlareSolverrUrl": "http://flaresolverr:8191",
+  "OmdbApiKey": "",
+  "OmdbApiUrl": "",
+  "ProxyType": -1,
+  "ProxyUrl": "",
+  "ProxyPort": null,
+  "ProxyUsername": "",
+  "ProxyPassword": "",
+  "ProxyIsAnonymous": true
+}
