@@ -12,9 +12,9 @@ services:
     volumes:
       - ./sonnar/data:/config
       - ./sonnar/tv:/tv
-      - ./downloads:/downloads
-    # ports:
-    #   - 8989:8989
+      - ./downloads/tv:/downloads
+    ports:
+      - 8989:8989
     restart: unless-stopped
     networks:
       - webnet
@@ -31,9 +31,9 @@ services:
     volumes:
       - ./radarr/data:/config
       - ./radarr/movies:/movies
-      - ./downloads:/downloads
-    # ports:
-    #   - 8990:7878
+      - ./downloads/movies:/downloads
+    ports:
+      - 8990:7878
     restart: unless-stopped
     networks:
       - webnet
@@ -53,9 +53,11 @@ services:
       - ./emby/transcoding:/transcode #optional
     ports:
       - 8096:8096 # need to be exposed for Emby App.
-    devices:
-      - /dev/dri:/dev/dri #optional
+    # devices:
+    #   - /dev/dri:/dev/dri #optional
     restart: unless-stopped
+    depends_on:
+      - "jackett"
     networks:
       - webnet
 # Qbittorrent
@@ -66,15 +68,15 @@ services:
       - PUID=1000
       - PGID=1000
       - TZ=Asia/Kolkata
-      - UMASK_SET=022sonarr
+      - UMASK_SET=022
       - WEBUI_PORT=8080
     volumes:
       - ./qbittorrent:/config
-      - ./downloads:/downloads
-    # ports:
-    #   - 6881:6881
-    #   - 6881:6881/udp
-    #   - 8080:8080
+      - ./downloads/qbit/:/downloads
+    ports:
+      - 6881:6881
+      - 6881:6881/udp
+      - 8080:8080
     restart: unless-stopped
     networks:
       - webnet
@@ -98,6 +100,33 @@ services:
       - "radarr"
     networks:
       - webnet
-
+  jackett:
+    image: ghcr.io/linuxserver/jackett
+    container_name: jackett
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Asia/Kolkata
+    volumes:
+      - ./jackett/config:/config
+      - ./downloads/jackett:/downloads
+    ports:
+      - 9117:9117
+    depends_on:
+      - "flaresolverr"
+    networks:
+      - webnet
+    restart: unless-stopped
+  flaresolverr:
+    image: ghcr.io/flaresolverr/flaresolverr:latest
+    container_name: flaresolverr
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Asia/Kolkata
+    ports:
+        - 8191:8191
+    networks:
+      - webnet
 networks:
   webnet:

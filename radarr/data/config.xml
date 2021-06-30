@@ -1,14 +1,15 @@
 <Config>
-  <LogLevel>Info</LogLevel>
+  <LogLevel>info</LogLevel>
+  <BindAddress>*</BindAddress>
+  <EnableSsl>False</EnableSsl>
+  <SslCertPath></SslCertPath>
   <Port>7878</Port>
   <UrlBase>/radarr</UrlBase>
-  <BindAddress>*</BindAddress>
-  <SslPort>9898</SslPort>
-  <EnableSsl>False</EnableSsl>
-  <ApiKey>b1714266f4af428daec26ed8745e11ac</ApiKey>
+  <ApiKey>2a1b88406a054a76a2a7a1d9fc783dc0</ApiKey>
   <AuthenticationMethod>None</AuthenticationMethod>
-  <Branch>develop</Branch>
+  <UpdateMechanism>Docker</UpdateMechanism>
+  <SslPort>9898</SslPort>
   <LaunchBrowser>True</LaunchBrowser>
-  <SslCertHash></SslCertHash>
-  <UpdateMechanism>BuiltIn</UpdateMechanism>
+  <Branch>master</Branch>
+  <SslCertPassword></SslCertPassword>
 </Config>
