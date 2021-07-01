@@ -17,7 +17,7 @@ server {
 		proxy_pass http://emby:8096/;
 
 	}
-	location /sonarr {
+	location /tv {
 		proxy_pass        http://sonarr:8989;
 		proxy_set_header  X-Real-IP  $remote_addr;
 		proxy_set_header        Host            $host;
@@ -35,7 +35,7 @@ server {
 		proxy_redirect off;
 		proxy_buffering off;
 	}
-	location /radarr {
+	location /movie {
     proxy_pass http://radarr:7878;
 		proxy_set_header  X-Real-IP  $remote_addr;
 		proxy_set_header        Host            $host;
