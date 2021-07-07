@@ -3,7 +3,7 @@
   <EnableSsl>False</EnableSsl>
   <Port>8989</Port>
   <SslPort>9898</SslPort>
-  <UrlBase>/sonarr</UrlBase>
+  <UrlBase>/tv</UrlBase>
   <BindAddress>*</BindAddress>
   <ApiKey>c0877de0ec474b178cebd5be4b9ab7c0</ApiKey>
   <AuthenticationMethod>None</AuthenticationMethod>

@@ -4,7 +4,7 @@
   <EnableSsl>False</EnableSsl>
   <SslCertPath></SslCertPath>
   <Port>7878</Port>
-  <UrlBase>/radarr</UrlBase>
+  <UrlBase>/movie</UrlBase>
   <ApiKey>2a1b88406a054a76a2a7a1d9fc783dc0</ApiKey>
   <AuthenticationMethod>None</AuthenticationMethod>
   <UpdateMechanism>Docker</UpdateMechanism>
