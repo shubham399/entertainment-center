@@ -3,19 +3,19 @@
     "id": "sitelink",
     "type": "inputstring",
     "name": "Site Link",
-    "value": "https://nyaa.si/"
+    "value": "https://nyaa.unblockit.uno/"
   },
   {
     "id": "cookieheader",
     "type": "hiddendata",
     "name": "CookieHeader",
-    "value": null
+    "value": "__ddg1=lmRi6iiNraRpKDL1kC5B"
   },
   {
     "id": "lasterror",
     "type": "hiddendata",
     "name": "LastError",
-    "value": "Exception (nyaasi):  Received an unexpected EOF or 0 bytes from the transport stream.: The SSL connection could not be established, see inner exception."
+    "value": "Exception (nyaasi): Cannot assign requested address: Cannot assign requested address (nyaa.unblockit.uno:443)"
   },
   {
     "id": "filter",

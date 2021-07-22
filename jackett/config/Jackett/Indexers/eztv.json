@@ -3,7 +3,7 @@
     "id": "sitelink",
     "type": "inputstring",
     "name": "Site Link",
-    "value": "https://eztv.unblockit.li/"
+    "value": "https://eztv.unblockit.uno/"
   },
   {
     "id": "cookieheader",
@@ -15,7 +15,7 @@
     "id": "lasterror",
     "type": "hiddendata",
     "name": "LastError",
-    "value": null
+    "value": "Exception (eztv): Cannot assign requested address: Cannot assign requested address (eztv.unblockit.uno:443)"
   },
   {
     "id": "tags",

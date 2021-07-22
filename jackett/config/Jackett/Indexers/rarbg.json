@@ -9,13 +9,13 @@
     "id": "cookieheader",
     "type": "hiddendata",
     "name": "CookieHeader",
-    "value": "__cf_bm=b49b953f1aa653ca4690069c2c83fbd6dd926588-1625046603-1800-Ae22z5KmHe5Z8p4A2DxiJQrH5fuZORFZ/2xhVr494eP76yRP+MHurRgFKp/duBldAhuejaO2/WpPxuDwnYDVKg8="
+    "value": "__cf_bm=1817c4f57db1b7bbff3553baf2f711d3bb8ec3ca-1626955495-1800-AUa7Tu+4pIETmSFHPaar1KA29LhIHjPeNbfPCmrT9sHM3HiI5gGdGr41i0vHuNvH+yQ98HhUQMcgUSuxKXLm+J8="
   },
   {
     "id": "lasterror",
     "type": "hiddendata",
     "name": "LastError",
-    "value": "Found no results while trying to browse this tracker"
+    "value": "Exception (rarbg): No route to host: No route to host (torrentapi.org:443)"
   },
   {
     "id": "apiurl",

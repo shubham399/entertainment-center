@@ -3,19 +3,19 @@
     "id": "sitelink",
     "type": "inputstring",
     "name": "Site Link",
-    "value": "https://yts.unblockit.li/"
+    "value": "https://yts.unblockit.uno/"
   },
   {
     "id": "cookieheader",
     "type": "hiddendata",
     "name": "CookieHeader",
-    "value": "PHPSESSID=b8s5uf4jheodns1lt3a38vnam6"
+    "value": "PHPSESSID=9d3js8uedijbjkqq9esgc2i8h1"
   },
   {
     "id": "lasterror",
     "type": "hiddendata",
     "name": "LastError",
-    "value": null
+    "value": "Exception (yts): Cannot assign requested address: Cannot assign requested address (yts.unblockit.uno:443)"
   },
   {
     "id": "tags",
