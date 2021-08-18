@@ -15,7 +15,7 @@
     "id": "lasterror",
     "type": "hiddendata",
     "name": "LastError",
-    "value": "Exception (yts): Cannot assign requested address: Cannot assign requested address (yts.unblockit.ch:443)"
+    "value": null
   },
   {
     "id": "tags",

@@ -15,7 +15,7 @@
     "id": "lasterror",
     "type": "hiddendata",
     "name": "LastError",
-    "value": "Exception (nyaasi): Cannot assign requested address: Cannot assign requested address (nyaa.unblockit.ch:443)"
+    "value": null
   },
   {
     "id": "filter",
