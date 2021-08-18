@@ -3,7 +3,7 @@
     "id": "sitelink",
     "type": "inputstring",
     "name": "Site Link",
-    "value": "https://1337x.unblockit.uno/"
+    "value": "https://1337x.unblockit.ch/"
   },
   {
     "id": "cookieheader",
@@ -15,7 +15,7 @@
     "id": "lasterror",
     "type": "hiddendata",
     "name": "LastError",
-    "value": "Exception (1337x): Cannot assign requested address: Cannot assign requested address (1337x.unblockit.uno:443)"
+    "value": "Exception (1337x): Cannot assign requested address: Cannot assign requested address (1337x.unblockit.ch:443)"
   },
   {
     "id": "downloadlink",

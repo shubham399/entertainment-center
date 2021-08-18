@@ -3,7 +3,7 @@
     "id": "sitelink",
     "type": "inputstring",
     "name": "Site Link",
-    "value": "https://yts.unblockit.uno/"
+    "value": "https://yts.unblockit.ch/"
   },
   {
     "id": "cookieheader",
@@ -15,7 +15,7 @@
     "id": "lasterror",
     "type": "hiddendata",
     "name": "LastError",
-    "value": "Exception (yts): Cannot assign requested address: Cannot assign requested address (yts.unblockit.uno:443)"
+    "value": "Exception (yts): Cannot assign requested address: Cannot assign requested address (yts.unblockit.ch:443)"
   },
   {
     "id": "tags",
