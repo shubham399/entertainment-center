@@ -39,20 +39,20 @@ services:
       - webnet
     depends_on:
       - "qbittorrent"
-  emby:
-    image: linuxserver/emby
-    container_name: emby
+  jellyfin:
+    image: ghcr.io/linuxserver/jellyfin
+    container_name: jellyfin
     environment:
       - PUID=1000
       - PGID=1000
       - TZ=Asia/Kolkata
     volumes:
-      - ./emby/data:/config
+      - ./jellyfin/data:/config
       - ./sonnar/tv:/data/tvshows
       - ./radarr/movies:/data/movies
-      - ./emby/transcoding:/transcode #optional
+      - ./jellyfin/transcoding:/transcode #optional
     ports:
-      - 8096:8096 # need to be exposed for Emby App.
+      - 8096:8096 # need to be exposed for jellyfin App.
     # devices:
     #   - /dev/dri:/dev/dri #optional
     restart: unless-stopped
@@ -95,7 +95,7 @@ services:
     restart: unless-stopped
     depends_on:
       - "qbittorrent"
-      - "emby"
+      - "jellyfin"
       - "sonarr"
       - "radarr"
     networks:

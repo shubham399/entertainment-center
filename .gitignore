@@ -9,7 +9,7 @@ sonnar/data/MediaCover/*
 sonnar/data/logs/*
 radarr/data/MediaCover/*
 radarr/data/logs/*
-emby/*
+jellyfin/*
 radarr/data/log*
 radarr/data/nzb*
 sonnar/data/log*
