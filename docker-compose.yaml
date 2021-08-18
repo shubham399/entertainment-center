@@ -46,6 +46,7 @@ services:
       - PUID=1000
       - PGID=1000
       - TZ=Asia/Kolkata
+      - JELLYFIN_PublishedServerUrl=192.168.1.108
     volumes:
       - ./jellyfin/data:/config
       - ./sonnar/tv:/data/tvshows
@@ -53,6 +54,9 @@ services:
       - ./jellyfin/transcoding:/transcode #optional
     ports:
       - 8096:8096 # need to be exposed for jellyfin App.
+      - 8920:8920 #optional
+      - 7359:7359/udp #optional
+      - 1900:1900/udp #optional
     # devices:
     #   - /dev/dri:/dev/dri #optional
     restart: unless-stopped
