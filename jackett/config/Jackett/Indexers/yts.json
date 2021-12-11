@@ -1,9 +1,9 @@
-unblockit.bzunblockit.bz[
+[
   {
     "id": "sitelink",
     "type": "inputstring",
     "name": "Site Link",
-    "value": "https://yts.unblockit.ws/"
+    "value": "https://yts.unblockit.tv/"
   },
   {
     "id": "cookieheader",

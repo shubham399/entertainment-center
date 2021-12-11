@@ -1,9 +1,9 @@
-unblockit.bzunblockit.bz[
+[
   {
     "id": "sitelink",
     "type": "inputstring",
     "name": "Site Link",
-    "value": "https://nyaa.unblockit.ws/"
+    "value": "https://nyaa.unblockit.tv/"
   },
   {
     "id": "cookieheader",

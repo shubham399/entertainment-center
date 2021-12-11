@@ -1,9 +1,9 @@
-unblockit.bzunblockit.bz[
+[
   {
     "id": "sitelink",
     "type": "inputstring",
     "name": "Site Link",
-    "value": "https://torlock.unblockit.ws/"
+    "value": "https://torlock.unblockit.tv/"
   },
   {
     "id": "cookieheader",
