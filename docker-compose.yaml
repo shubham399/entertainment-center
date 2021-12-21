@@ -12,7 +12,7 @@ services:
     volumes:
       - ./sonnar/data:/config
       - ./sonnar/tv:/tv
-      - ./downloads/tv:/downloads
+      - ./downloads/qbit:/downloads
     ports:
       - 8989:8989
     restart: unless-stopped
@@ -31,7 +31,7 @@ services:
     volumes:
       - ./radarr/data:/config
       - ./radarr/movies:/movies
-      - ./downloads/movies:/downloads
+      - ./downloads/qbit:/downloads
     ports:
       - 8990:7878
     restart: unless-stopped
@@ -113,7 +113,7 @@ services:
       - TZ=Asia/Kolkata
     volumes:
       - ./jackett/config:/config
-      - ./downloads/jackett:/downloads
+      - ./downloads/qbit:/downloads
     ports:
       - 9117:9117
     depends_on:
