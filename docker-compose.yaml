@@ -141,8 +141,9 @@ services:
       - PUID=1000
       - PGID=1000
       - TZ=Asia/Kolkata
+      - BASE_PATH=/book/
     ports:
-        - 8900:8080
+        - 8900:80
     volumes:
       - ./downloads/qbit:/books
     networks:
