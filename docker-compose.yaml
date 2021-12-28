@@ -133,5 +133,19 @@ services:
         - 8191:8191
     networks:
       - webnet
+  openbooks:
+    image: evanbuss/openbooks
+    container_name: openbooks
+    restart: unless-stopped
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Asia/Kolkata
+    ports:
+        - 8080:8080
+    volumes:
+      - ./downloads/qbit:/books
+    networks:
+      - webnet
 networks:
   webnet:
