@@ -1,9 +1,9 @@
-unblockit.camunblockit.camunblockit.howunblockit.how[
+[
   {
     "id": "sitelink",
     "type": "inputstring",
     "name": "Site Link",
-    "value": "https://eztv.unblockit.tv/"
+    "value": "https://eztv.unblockit.cam/"
   },
   {
     "id": "cookieheader",

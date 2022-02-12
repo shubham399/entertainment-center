@@ -1,9 +1,9 @@
-unblockit.camunblockit.camunblockit.howunblockit.how[
+[
   {
     "id": "sitelink",
     "type": "inputstring",
     "name": "Site Link",
-    "value": "https://yts.unblockit.tv/"
+    "value": "https://yts.unblockit.cam/"
   },
   {
     "id": "cookieheader",
