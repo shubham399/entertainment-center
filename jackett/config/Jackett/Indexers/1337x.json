@@ -1,9 +1,9 @@
-unblockit.camunblockit.camunblockit.camunblockit.cam[
+[
   {
     "id": "sitelink",
     "type": "inputstring",
     "name": "Site Link",
-    "value": "https://1337x.unblockit.how/"
+    "value": "https://1337x.unblockit.cam/"
   },
   {
     "id": "cookieheader",
