@@ -3,7 +3,7 @@
     "id": "sitelink",
     "type": "inputstring",
     "name": "Site Link",
-    "value": "https://nyaa.unblockit.cam/"
+    "value": "https://nyaa.unblockit.name/"
   },
   {
     "id": "cookieheader",

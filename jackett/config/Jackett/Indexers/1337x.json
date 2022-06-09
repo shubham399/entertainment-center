@@ -3,7 +3,7 @@
     "id": "sitelink",
     "type": "inputstring",
     "name": "Site Link",
-    "value": "https://1337x.unblockit.cam/"
+    "value": "https://1337x.unblockit.name/"
   },
   {
     "id": "cookieheader",
