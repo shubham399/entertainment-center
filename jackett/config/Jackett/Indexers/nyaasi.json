@@ -3,7 +3,7 @@
     "id": "sitelink",
     "type": "inputstring",
     "name": "Site Link",
-    "value": "https://nyaa.unblockit.bet/"
+    "value": "https://nyaa.unblockit.cat/"
   },
   {
     "id": "cookieheader",

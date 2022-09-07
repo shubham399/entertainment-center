@@ -3,7 +3,7 @@
     "id": "sitelink",
     "type": "inputstring",
     "name": "Site Link",
-    "value": "https://yts.unblockit.bet/"
+    "value": "https://yts.unblockit.cat/"
   },
   {
     "id": "cookieheader",
