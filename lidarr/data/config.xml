@@ -1,6 +1,6 @@
 <Config>
   <LogLevel>info</LogLevel>
-  <UrlBase></UrlBase>
+  <UrlBase>/music</UrlBase>
   <UpdateMechanism>Docker</UpdateMechanism>
   <BindAddress>*</BindAddress>
   <Port>8686</Port>

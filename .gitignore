@@ -27,3 +27,7 @@ Lidarr.txt
 *.db-wal
 *.zip
 *.pid
+**/log.txt
+*.migrations
+*.pem
+**/DataProtection/**.xml
