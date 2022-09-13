@@ -15,7 +15,7 @@
     "id": "lasterror",
     "type": "hiddendata",
     "name": "LastError",
-    "value": null
+    "value": "Exception (torlock): The cookies provided by FlareSolverr are not valid: The cookies provided by FlareSolverr are not valid"
   },
   {
     "id": "sortrequestedfromsite(onlyworksforsearchwithkeywords)",
