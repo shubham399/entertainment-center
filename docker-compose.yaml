@@ -1,6 +1,25 @@
 ---
 version: "2"
 services:
+  lidarr:
+    image: linuxserver/lidarr
+    container_name: lidarr
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Asia/Kolkata
+      - UMASK_SET=022 #optional
+    volumes:
+      - ./lidarr/data:/config
+      - ./lidarr/music:/data/music
+      - ./downloads/qbit:/data/downloads
+    ports:
+      - 8686:8686
+    restart: unless-stopped
+    networks:
+      - webnet
+    depends_on:
+      - "qbittorrent"
   sonarr:
     image: linuxserver/sonarr
     container_name: sonarr
@@ -11,8 +30,8 @@ services:
       - UMASK_SET=022 #optional
     volumes:
       - ./sonnar/data:/config
-      - ./sonnar/tv:/tv
-      - ./downloads/qbit:/downloads
+      - ./sonnar/tv:/data/tv
+      - ./downloads/qbit:/data/downloads
     ports:
       - 8989:8989
     restart: unless-stopped
@@ -30,8 +49,8 @@ services:
       - UMASK_SET=022 #opTorrentRssIndexertional
     volumes:
       - ./radarr/data:/config
-      - ./radarr/movies:/movies
-      - ./downloads/qbit:/downloads
+      - ./radarr/movies:/data/movies
+      - ./downloads/qbit:/data/downloads
     ports:
       - 8990:7878
     restart: unless-stopped
@@ -76,7 +95,7 @@ services:
       - WEBUI_PORT=8080
     volumes:
       - ./qbittorrent:/config
-      - ./downloads/qbit/:/downloads
+      - ./downloads/qbit/:/root/downloads
     ports:
       - 6881:6881
       - 6881:6881/udp
@@ -145,7 +164,7 @@ services:
     ports:
         - 8900:80
     volumes:
-      - ./downloads/qbit:/books
+      - ./downloads/qbit:/data/books
     networks:
       - webnet
 networks:
