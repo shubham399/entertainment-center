@@ -2,7 +2,7 @@
 version: "2"
 services:
   prowlarr:
-    image: linuxserver/prowlarr
+    image: lscr.io/linuxserver/prowlarr:develop
     container_name: prowlarr
     environment:
       - PUID=1000
