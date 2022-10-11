@@ -3,7 +3,7 @@
     "id": "sitelink",
     "type": "inputstring",
     "name": "Site Link",
-    "value": "https://torlock.unblockit.cat/"
+    "value": "https://torlock.unblockit.nz/"
   },
   {
     "id": "cookieheader",
