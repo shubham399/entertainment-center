@@ -31,3 +31,4 @@ Lidarr.txt
 *.migrations
 *.pem
 **/DataProtection/**.xml
+prowlarr/*
