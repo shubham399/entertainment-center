@@ -1,6 +1,29 @@
 ---
 version: "2"
 services:
+  prowlarr:
+    image: lscr.io/linuxserver/prowlarr:0.4.7-nightly
+    container_name: prowlarr
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Asia/Kolkata
+      - UMASK_SET=022 #optional
+    volumes:
+      - ./prowlarr/data:/config
+      - ./prowlarr/music:/data/music
+      - ./downloads/qbit:/data/downloads
+    ports:
+      - 9696:9696
+    restart: unless-stopped
+    networks:
+      - webnet
+    depends_on:
+      - "lidarr"
+      - "sonarr"
+      - "radarr"
+      - "jackett"
+
   lidarr:
     image: linuxserver/lidarr
     container_name: lidarr
