@@ -1,10 +1,13 @@
-This Project contain
 
-1. Sonarr (/tv)
-2. Rodarr (/movie)
-3. Openbooks (/book)
-4. Jellyfin (/)
-5. Qbittorrent (/qbit)
-6. Jackett (/jackett)
-7. Flaresolverr
-8. Nginx (Reverse Proxy)
+# Entertainment center
+
+A Docker Compose Server Setup of 
+
+* Sonarr
+* Rodarr
+* Openbooks
+* Jellyfin
+* Qbittorrent
+* Jackett -> In progress to change it to prowlarr
+* Flaresolverr
+* Nginx
