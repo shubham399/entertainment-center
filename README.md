@@ -3,15 +3,15 @@
 
 A Docker Compose Server Setup of 
 
-* Sonarr
-* Rodarr
-* Openbooks
-* Lidarr
-* Jellyfin
-* Qbittorrent
-* Jackett -> In progress to change it to prowlarr
-* Flaresolverr
-* Nginx
+* [Sonarr](https://sonarr.tv/)
+* [Rodarr](https://radarr.video/)
+* [Openbooks](https://github.com/evan-buss/openbooks)
+* [Lidarr](https://lidarr.audio/)
+* [Jellyfin](https://jellyfin.org/)
+* [Qbittorrent](https://www.qbittorrent.org/)
+* [Jackett](https://github.com/Jackett/Jackett) -> In progress to change it to [prowlarr](https://github.com/Prowlarr/Prowlarr)
+* [Flaresolverr](https://github.com/FlareSolverr/FlareSolverr)
+* [Nginx](https://nginx.org/)
 
 ## Dependency 
 
@@ -35,3 +35,4 @@ Start Service
 ```bash
    docker-compose up
 ```
+
