@@ -1,4 +1,3 @@
-
 # Entertainment center
 
 A Docker Compose Server Setup of 
