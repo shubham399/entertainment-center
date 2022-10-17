@@ -16,3 +16,22 @@ A Docker Compose Server Setup of
 ## Dependency 
 
 Install [Docker](https://docs.docker.com/engine/install/) and [docker-compose](https://docs.docker.com/compose/install/)
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/shubham399/entertainment-center.git
+```
+
+Go to the project directory
+
+```bash
+  cd entertainment-center
+```
+
+Start Service 
+```bash
+   docker-compose up
+```
