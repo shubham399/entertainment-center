@@ -36,3 +36,8 @@ Start Service
    docker-compose up
 ```
 
+
+### Badges
+![](https://img.shields.io/github/issues/shubham399/entertainment-center)
+![](https://img.shields.io/github/license/shubham399/entertainment-center)
+
